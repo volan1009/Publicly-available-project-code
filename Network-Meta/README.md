@@ -1,12 +1,12 @@
-# Network Meta-Analysis (NMA) Project
+# 🔗 Network Meta-Analysis (NMA) Project
 
-## Overview
+## 📋 Overview
 
-This project implements a comprehensive **Network Meta-Analysis (NMA)** workflow using R and the `gemtc` package. Network Meta-Analysis is an advanced statistical technique that synthesizes evidence from multiple treatment comparison studies, allowing researchers to compare multiple treatments simultaneously, even when they have not been directly compared in clinical trials.
+This project implements a comprehensive **Network Meta-Analysis (NMA)** workflow using R and the `gemtc` package. Network Meta-Analysis is an advanced statistical technique that synthesizes evidence from multiple treatment comparisons to establish a network of evidence on treatment efficacy and safety.
 
 This implementation covers both **continuous outcomes** (e.g., ADAS-Cog scores) and **binary outcomes** (e.g., adverse events), with automated model fitting, diagnostics, and result generation.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 Network-Meta/
@@ -20,7 +20,7 @@ Network-Meta/
 ├── results/                           # Output directory for results tables
 ```
 
-## Required Dependencies
+## 📦 Required Dependencies
 
 ### R Packages
 
@@ -38,7 +38,7 @@ The analysis requires the following R packages:
   - Download from: https://sourceforge.net/projects/mcmc-jags/files/
   - Windows users: Set `JAGS_HOME` environment variable or update the path in the R script
 
-### Installation
+### 🔧 Installation
 
 ```r
 # Install required R packages
@@ -51,7 +51,7 @@ install.packages(c("gemtc", "coda", "ggplot2", "tidyr", "rjags"))
 # brew install mcmc-jags
 ```
 
-## Data Format
+## 📊 Data Format
 
 ### Continuous Outcomes (ADAS_Cog.csv)
 
@@ -94,7 +94,7 @@ TRIAL_B,placebo,15,95
 TRIAL_B,drug_x,5,98
 ```
 
-## Validation Rules
+## ✅ Validation Rules
 
 The script enforces the following data quality checks:
 
@@ -106,7 +106,7 @@ The script enforces the following data quality checks:
 6. **Numeric validity** - Outcome values must convert successfully to numeric type
 7. **Outcome range** - For binary outcomes, responder counts must be between 0 and sample size
 
-## Analysis Workflow
+## 🔬 Analysis Workflow
 
 ### Step 1: Model Fitting
 
@@ -173,7 +173,7 @@ For each outcome, the script generates:
 
 - `network_[outcome].png` - Network graph showing treatment connections and comparisons
 
-## Running the Analysis
+## ▶️ Running the Analysis
 
 ### Basic Execution
 
@@ -189,7 +189,7 @@ source("appendix_nma_workflow.R")
 Rscript appendix_nma_workflow.R
 ```
 
-### Configuration
+### ⚙️ Configuration
 
 Modify the following lines in `appendix_nma_workflow.R` before running:
 
@@ -202,7 +202,7 @@ run_continuous_nma(file.path(project_dir, "ADAS_Cog.csv"), "ADAS_Cog")
 run_binary_nma(file.path(project_dir, "AEs.csv"), "AEs")
 ```
 
-## Statistical Methods
+## 📐 Statistical Methods
 
 ### Continuous Outcomes (ADAS-Cog Example)
 
@@ -219,7 +219,7 @@ run_binary_nma(file.path(project_dir, "AEs.csv"), "AEs")
 - **Model type:** Random-effects hierarchical Bayesian model
 - **Interpretation:** Log odds ratios (and odds ratios) between treatments
 
-## Key Outputs Interpretation
+## 📈 Key Outputs Interpretation
 
 ### League Table
 
@@ -242,7 +242,7 @@ Visual representation of relative effects:
 - **Horizontal line:** 95% credible interval
 - **Vertical line at 0:** No effect
 
-## Troubleshooting
+## 🐛 Troubleshooting
 
 ### JAGS Installation Issues
 
@@ -270,20 +270,20 @@ Visual representation of relative effects:
 - Review trace plots for signs of mixing problems
 - Ensure sufficient trials in the network
 
-## References
+## 📚 References
 
 - Salanti G. (2012). "Indirect and mixed-treatment comparison, network, or multiple-treatments meta-analysis: several names, several benefits." *Journal of Clinical Epidemiology*, 65(5), 475-483.
 - Dias S, Sutton AJ, Ades AE, et al. (2013). "Evidence synthesis for decision making." *Research Synthesis Methods*, 4(3), 230-246.
 - Dias S, Welton NJ, Caldwell DM, et al. (2010). "Checking consistency in mixed treatment comparison meta-analysis." *Statistics in Medicine*, 29(7-8), 932-944.
 
-## Notes
+## 📝 Notes
 
 - All analyses use non-informative priors
 - Results are fully Bayesian; credible intervals represent 95% probability ranges
 - Random-effects models account for between-study heterogeneity
 - Results include full MCMC diagnostics for transparency
 
-## Contact & Attribution
+## 👤 Contact & Attribution
 
 This NMA workflow implements standard Bayesian hierarchical meta-analysis methods using the R `gemtc` package. Adaptations and documentation for this specific project structure.
 
