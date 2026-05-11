@@ -1,0 +1,543 @@
+-------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  v:\PP\Network Meta\results\appendix_network_workflow.log
+  log type:  text
+ opened on:  11 May 2026, 13:02:28
+
+. 
+. 
+. * Step 2. Check required user-written Stata commands.
+. capture program drop ensure_network_commands
+
+. program define ensure_network_commands
+  1.     capture which network
+  2.     local has_network = (_rc == 0)
+  3. 
+.     capture which networkplot
+  4.     local has_networkplot = (_rc == 0)
+  5. 
+.     capture which netfunnel
+  6.     local has_netfunnel = (_rc == 0)
+  7. 
+.     if (`has_network' & `has_networkplot' & `has_netfunnel') {
+  8.         global APPENDIX_HAS_NETWORKPLOT 1
+  9.         global APPENDIX_HAS_NETFUNNEL 1
+ 10.         exit
+ 11.     }
+ 12. 
+.     di as txt "Installing required Stata network meta-analysis commands
+>  if needed ..."
+ 13. 
+.     if (!`has_network') {
+ 14.         capture noisily net install network, from("https://raw.githu
+> busercontent.com/UCL/network/master/package/") replace
+ 15.         capture which network
+ 16.         local has_network = (_rc == 0)
+ 17.     }
+ 18. 
+.     if (!`has_network') {
+ 19.         capture noisily ssc install network, replace
+ 20.         capture which network
+ 21.         local has_network = (_rc == 0)
+ 22.     }
+ 23. 
+.     if (!`has_network') {
+ 24.         capture noisily net install st0410_1, from("https://www.stat
+> a-journal.com/software/sj15-4") replace
+ 25.         capture which network
+ 26.         local has_network = (_rc == 0)
+ 27.     }
+ 28. 
+.     if (!`has_networkplot' | !`has_netfunnel') {
+ 29.         capture noisily net install network_graphs, from("https://ww
+> w.cer-methods.com/Stata") replace
+ 30.         capture which networkplot
+ 31.         local has_networkplot = (_rc == 0)
+ 32.         capture which netfunnel
+ 33.         local has_netfunnel = (_rc == 0)
+ 34.     }
+ 35. 
+.     if (!`has_networkplot' | !`has_netfunnel') {
+ 36.         capture which github
+ 37.         if (_rc) {
+ 38.             capture noisily net install github, from("https://haghis
+> h.github.io/github/") replace
+ 39.         }
+ 40. 
+.         capture which github
+ 41.         if (_rc == 0) {
+ 42.             capture noisily github install achaimani/network_graphs
+ 43.             capture program drop networkplot
+ 44.             capture program drop netfunnel
+ 45. 
+.             capture which networkplot
+ 46.             local has_networkplot = (_rc == 0)
+ 47.             capture which netfunnel
+ 48.             local has_netfunnel = (_rc == 0)
+ 49.         }
+ 50.     }
+ 51. 
+.     global APPENDIX_HAS_NETWORKPLOT `has_networkplot'
+ 52.     global APPENDIX_HAS_NETFUNNEL `has_netfunnel'
+ 53. 
+.     if (!`has_network') {
+ 54.         di as error "Required command 'network' is still unavailable
+> ."
+ 55.         di as error "Run one of these commands inside Stata, then re
+> run this do-file:"
+ 56.         di as error "    net install network, from(https://raw.githu
+> busercontent.com/UCL/network/master/package/) replace"
+ 57.         di as error "    ssc install network, replace"
+ 58.         di as error "    net install st0410_1, from(https://www.stat
+> a-journal.com/software/sj15-4) replace"
+ 59.         exit 199
+ 60.     }
+ 61. 
+.     if (!`has_networkplot') {
+ 62.         di as txt "networkplot is unavailable; network map export wi
+> ll be skipped."
+ 63.     }
+ 64. 
+.     if (!`has_netfunnel') {
+ 65.         di as txt "netfunnel is unavailable; funnel plot export will
+>  be skipped."
+ 66.     }
+ 67. end
+
+. 
+. 
+. * Step 3. Define a shared schema check.
+. capture program drop assert_columns
+
+. program define assert_columns
+  1.     syntax varlist
+  2. 
+.     foreach var of local varlist {
+  3.         capture confirm variable `var'
+  4.         if (_rc) {
+  5.             di as error "Required column `var' not found."
+  6.             exit 111
+  7.         }
+  8.     }
+  9. end
+
+. 
+. 
+. * Step 4. Save graphs in editable and image formats.
+. capture program drop save_graph_outputs
+
+. program define save_graph_outputs
+  1.     syntax, BASENAME(string) [WIDTH(integer 2400) HEIGHT(integer 0)]
+  2. 
+.     graph save "`basename'.gph", replace
+  3. 
+.     if (`height' > 0) {
+  4.         graph export "`basename'.png", replace width(`width') height
+> (`height')
+  5.     }
+  6.     else {
+  7.         graph export "`basename'.png", replace width(`width')
+  8.     }
+  9. end
+
+. 
+. 
+. * Step 5. Build a project-local netfunnel override with a bottom multi-
+> column legend.
+. capture program drop ensure_local_netfunnel
+
+. program define ensure_local_netfunnel
+  1.     syntax, PROJECTDIR(string)
+  2. 
+.     if ("$APPENDIX_HAS_NETFUNNEL" != "1") {
+  3.         exit
+  4.     }
+  5. 
+.     local override_dir "`projectdir'\ado_override"
+  6.     local override_file "`override_dir'\netfunnel.ado"
+  7. 
+.     capture mkdir "`override_dir'"
+  8. 
+.     capture findfile netfunnel.ado
+  9.     if (_rc) {
+ 10.         di as txt "Skipping the project-local netfunnel override bec
+> ause netfunnel.ado was not found."
+ 11.         exit
+ 12.     }
+ 13. 
+.     local source_file "`r(fn)'"
+ 14. 
+.     capture noisily filefilter "`source_file'" "`override_file'", ///
+>         from("col(6)") ///
+>         to("position(6) ring(1) col(3) colfirst size(vsmall)") ///
+>         replace
+ 15. 
+.     if (_rc) {
+ 16.         di as txt "Using the installed netfunnel because the local l
+> egend patch could not be created."
+ 17.         exit
+ 18.     }
+ 19. 
+.     if (r(occurrences) == 0) {
+ 20.         di as txt "Using the installed netfunnel because the expecte
+> d legend marker was not found in the source file."
+ 21.         exit
+ 22.     }
+ 23. 
+.     adopath ++ "`override_dir'"
+ 24.     capture program drop netfunnel
+ 25. end
+
+. 
+. 
+. * Step 6. Resize funnel graphs for wider export.
+. capture program drop format_funnel_graph
+
+. program define format_funnel_graph
+  1.     capture noisily graph display, xsize(10) ysize(7)
+  2. 
+.     if (_rc) {
+  3.         di as txt "Keeping the default funnel graph size because gra
+> ph display failed in this Stata setup."
+  4.     }
+  5. end
+
+. 
+. 
+. * Step 7. Build network and funnel plots for continuous outcomes.
+. capture program drop run_continuous_network
+
+. program define run_continuous_network
+  1.     syntax, DATAfile(string) OUTcome(string)
+  2. 
+.     import delimited "`datafile'", clear
+  3.     assert_columns study treatment mean stddev samplesize
+  4. 
+.     replace treatment = lower(trim(treatment))
+  5.     isid study treatment
+  6. 
+.     network setup mean stddev samplesize, ///
+>         studyvar(study) ///
+>         trtvar(treatment) ///
+>         format(augment) ///
+>         nocodes
+  7. 
+.     if ("$APPENDIX_HAS_NETWORKPLOT" == "1") {
+  8.         capture noisily network map, improve
+  9.         if (_rc == 0) {
+ 10.             save_graph_outputs, basename("figures\network_`outcome'"
+> )
+ 11.         }
+ 12.         else {
+ 13.             di as txt "Skipping network map for `outcome' because ne
+> twork map failed in this Stata setup."
+ 14.         }
+ 15.     }
+ 16.     else {
+ 17.         di as txt "Skipping network map for `outcome' because networ
+> kplot is unavailable."
+ 18.     }
+ 19. 
+.     if ("$APPENDIX_HAS_NETFUNNEL" == "1") {
+ 20.         network convert pairs
+ 21. 
+.         netfunnel _y _stderr _t1 _t2, ///
+>             bycomparison ///
+>             ytitle("Standard error of mean difference")
+ 22. 
+.         format_funnel_graph
+ 23.         save_graph_outputs, basename("figures\funnel_`outcome'") wid
+> th(3200) height(2240)
+ 24.     }
+ 25.     else {
+ 26.         di as txt "Skipping funnel plot for `outcome' because netfun
+> nel is unavailable."
+ 27.     }
+ 28. end
+
+. 
+. 
+. * Step 8. Build network and funnel plots for binary outcomes.
+. capture program drop run_binary_network
+
+. program define run_binary_network
+  1.     syntax, DATAfile(string) OUTcome(string)
+  2. 
+.     import delimited "`datafile'", clear
+  3.     assert_columns study treatment responders samplesize
+  4. 
+.     replace treatment = lower(trim(treatment))
+  5.     assert responders >= 0
+  6.     assert responders <= samplesize
+  7.     isid study treatment
+  8. 
+.     network setup responders samplesize, ///
+>         studyvar(study) ///
+>         trtvar(treatment) ///
+>         format(augment) ///
+>         nocodes
+  9. 
+.     if ("$APPENDIX_HAS_NETWORKPLOT" == "1") {
+ 10.         capture noisily network map, improve
+ 11.         if (_rc == 0) {
+ 12.             save_graph_outputs, basename("figures\network_`outcome'"
+> )
+ 13.         }
+ 14.         else {
+ 15.             di as txt "Skipping network map for `outcome' because ne
+> twork map failed in this Stata setup."
+ 16.         }
+ 17.     }
+ 18.     else {
+ 19.         di as txt "Skipping network map for `outcome' because networ
+> kplot is unavailable."
+ 20.     }
+ 21. 
+.     if ("$APPENDIX_HAS_NETFUNNEL" == "1") {
+ 22.         network convert pairs
+ 23. 
+.         netfunnel _y _stderr _t1 _t2, ///
+>             bycomparison ///
+>             ytitle("Standard error of log odds ratio")
+ 24. 
+.         format_funnel_graph
+ 25.         save_graph_outputs, basename("figures\funnel_`outcome'") wid
+> th(3200) height(2240)
+ 26.     }
+ 27.     else {
+ 28.         di as txt "Skipping funnel plot for `outcome' because netfun
+> nel is unavailable."
+ 29.     }
+ 30. end
+
+. 
+. 
+. * Step 9. Check required input files.
+. capture confirm file "`project_dir'\ADAS_Cog.csv"
+
+. if (_rc) {
+.     di as error "ADAS_Cog.csv not found in `project_dir'"
+.     exit 601
+. }
+
+. 
+. capture confirm file "`project_dir'\AEs.csv"
+
+. if (_rc) {
+.     di as error "AEs.csv not found in `project_dir'"
+.     exit 601
+. }
+
+. 
+. 
+. * Step 10. Run both example analyses.
+. ensure_network_commands
+
+. ensure_local_netfunnel, projectdir("`project_dir'")
+  [1]              "v:\PP\Network Meta\ado_override"
+  [2]  (BASE)      "D:\Program Files\Stata18\ado\base/"
+  [3]  (SITE)      "D:\Program Files\Stata18\ado\site/"
+  [4]              "."
+  [5]  (PERSONAL)  "C:\Users\12752\ado\personal/"
+  [6]  (PLUS)      "C:\Users\12752\ado\plus/"
+  [7]  (OLDPLACE)  "c:\ado/"
+
+. 
+. 
+. run_continuous_network, datafile("`project_dir'\ADAS_Cog.csv") outcome(
+> "adas_cog")
+(5 vars, 86 obs)
+(0 real changes made)
+Treatments used
+   adu10mg (reference):                adu10mg
+   bap150ug:                           bap150ug
+   bap1mg:                             bap1mg
+   bap500ug:                           bap500ug
+   bapb2mg:                            bapb2mg
+   cre15mg:                            cre15mg
+   cre300mg:                           cre300mg
+   cre60mg:                            cre60mg
+   don1400mg:                          don1400mg
+   gan105mg:                           gan105mg
+   gan225mg:                           gan225mg
+   lec10mg:                            lec10mg
+   lec2500ug:                          lec2500ug
+   lec5mg:                             lec5mg
+   placebo:                            placebo
+   pon100ug:                           pon100ug
+   pon10mg:                            pon10mg
+   pon1mg:                             pon1mg
+   pon3mg:                             pon3mg
+   pon500ug:                           pon500ug
+   pon7500ug:                          pon7500ug
+   pon8500ug:                          pon8500ug
+   sem1500mg:                          sem1500mg
+   sem4500mg:                          sem4500mg
+   sem8100mg:                          sem8100mg
+   sol100mg:                           sol100mg
+   sol400mg:                           sol400mg
+   til1000mg:                          til1000mg
+   til2000mg:                          til2000mg
+   til300mg:                           til300mg
+
+Measure                                Mean difference
+   Standard deviation pooling:         off
+
+Studies
+   ID variable:                        study
+   Number used:                        38
+   IDs with augmented reference arm:   `"Cumming 2018"' `"Cumming 2018a"'
+>  `"Doody 2014"' `"Doody 2014a"' `"Farlow 2012"' `"Farlow 2012a"' `"Farl
+> ow 2012b"' `"Farlow 2012c"' `"Florian 2023"' `"Honig 2018"' `"Ivanoiu 2
+> 016"' `"Ivanoiu 2016a"' `"Ivanoiu 2016b"' `"Minton 2021"' `"Ostrowitzki
+>  2017"' `"Ostrowitzki 2022"' `"Salloway 2009"' `"Salloway 2009a"' `"Sal
+> loway 2009b"' `"Salloway 2009c"' `"Salloway 2014"' `"Salloway 2014a"' `
+> "Salloway(2) 2018"' `"Swanson 2022"' `"Swanson 2022a"' `"Swanson 2022b"
+> ' `"Swanson 2022c"' `"Swanson 2022d"' `"Teng 2022"' `"Van 2023"' `"Vand
+> enberg 2016"' `"Vandenberg 2016a"' `"landen 2017"' `"landen 2017a"' `"l
+> anden 2018"' `"landen 2018a"'
+   - observations added:               0.001
+   - mean in augmented observations:   study-specific mean
+   - SD in augmented observations:     study-specific within-arms SD
+
+Network information                    
+   Components:                         1 (connected)
+   D.f. for inconsistency:             2
+   D.f. for heterogeneity:             17
+
+Current data
+   Data format:                        augmented
+   Design variable:                    _design
+   Estimate variables:                 _y*
+   Variance variables:                 _S*
+   Command to list the data:           list study _y* _S*, noo sepby(_des
+> ign)
+Improving locations ...
+loop 1 score 11==.======.=====.==. 5= 4..===..===..======.====.=..== 3.=.
+> ==.=.=.===..........................===..........................===.==
+> ===.=====.==..===..===..==..======.====.=...=....==..===.======.=====.=
+> ...=....==.=.==..======.====.=...=....==...==..=====..====.=...=....==.
+> ...........==............................==...................==..=====
+> ..====.=...=....==...==..=====.=====.=...=....==...==..=====..====.=...
+> =....==...==..=====..====.=...=....==.......=..........=.=.=..........=
+> =..=====..====.=...=....==........=.........=.=.=................=.....
+> ......=..=.......................=.=.=..........==..=====..====.=...=..
+> ..==..........=..........=..=..............................===.........
+> ..................===...........................===.....==..=====..====
+> .=...=....==...==..=====..====.=...=....==.............................
+> .===...........................===...........................===
+loop 2 score 3==..=====..====.=...=....==...==..=====..====.=...=....==..
+> ...==......................=.....==......................=...==..=====.
+> .====.=...=....==...==..=====..====.=...=....==...==..=====..====.=.=.=
+> ....==...==..=====..====.==..=.=..==...==.======..====.=...==..===..=..
+> ..=....==.......................=....==...................===.=====..==
+> ==.=...=....==...==.======..====.=...=....==...===.=====..====.=...=...
+> .==...==..=====.=======...=....==..................===.=..........==..=
+> ====..====.=...=....==...=..............=.=.=..........=...............
+> ..=..=.......................=.=.=..........==..=====..====.=...=....==
+> ....=................=..=..............................===.............
+> ..............===.........=.................===.....==..=====..====.=..
+> .=....==...==..=====..====.=...=....==..............................===
+> ...........................===........=..................===
+Stopping because loop 2 gave no improvement
+Evaluating optimal locations ...
+  15-20 and 16-18: score 1
+  15-25 and 23-24: score 1
+  15-29 and 28-30: score 1
+Graph command stored in F9
+file figures\network_adas_cog.gph saved
+file figures\network_adas_cog.png saved as PNG format
+Converting augmented to pairs ...
+
+Comparisons in the plot*:
+
+  1.   placebo - sol400mg  
+  2.   placebo - sol100mg  
+  3.     lec5mg - placebo  
+  4.    lec10mg - placebo  
+  5.   bap500ug - placebo  
+  6.     bap1mg - placebo  
+  7.    bap1mg - bap500ug  
+  8.    adu10mg - placebo  
+
+* Note: Comparisons including only one study (when present) have been exc
+> luded from the graph
+file figures\funnel_adas_cog.gph saved
+file figures\funnel_adas_cog.png saved as PNG format
+
+. run_binary_network, datafile("`project_dir'\AEs.csv") outcome("aes")
+(4 vars, 52 obs)
+(0 real changes made)
+Treatments used
+   aducanumab (reference):             aducanumab
+   bapineuzumab:                       bapineuzumab
+   biib092:                            biib092
+   crenezumab:                         crenezumab
+   donanemab:                          donanemab
+   gantenerumab:                       gantenerumab
+   gsk933776:                          gsk933776
+   lecanemab:                          lecanemab
+   placebo:                            placebo
+   ponezumab:                          ponezumab
+   semorinemab:                        semorinemab
+   solanezumab:                        solanezumab
+   tilavonemab:                        tilavonemab
+
+Measure                                Log odds ratio
+
+Studies
+   ID variable:                        study
+   Number used:                        26
+   IDs with zero cells:                `"Black 2010"' `"Landen 2013"' `"R
+> inne 2010"'
+   - count added to all their cells:   .5
+   IDs with augmented reference arm:   `"Andearson 2015"' `"Arai 2015"' `
+> "Black 2010"' `"Brasher 2018"' `"Brody 2016"' `"Cumming 2018"' `"Florai
+> n 2023"' `"Guthrie 2020"' `"Hoglinger 2021"' `"Honig 2018"' `"Ivanoiu 2
+> 016"' `"Landen 2013"' `"Logovinsky 2016"' `"Lowe 2021"' `"Lu 2018"' `"O
+> strowitzki 2017"' `"Ostrowitzki 2022"' `"Qureshi 2018"' `"Rinne 2010"' 
+> `"Salloway 2018"' `"Salloway 2018(1)"' `"Salloway 2018(2)"' `"Swanson 2
+> 022"' `"Teng 2022"' `"Van 2023"'
+   - observations added:               0.001
+   - mean in augmented observations:   study-specific mean
+
+Network information                    
+   Components:                         1 (connected)
+   D.f. for inconsistency:             0
+   D.f. for heterogeneity:             14
+
+Current data
+   Data format:                        augmented
+   Design variable:                    _design
+   Estimate variables:                 _y*
+   Variance variables:                 _S*
+   Command to list the data:           list study _y* _S*, noo sepby(_des
+> ign)
+Improving locations ...
+loop 1 score 0=
+Stopping after achieving score of 0
+Evaluating optimal locations ...
+Graph command stored in F9
+file figures\network_aes.gph saved
+file figures\network_aes.png saved as PNG format
+Converting augmented to pairs ...
+
+Comparisons in the plot*:
+
+  1.    placebo - tilavonemab  
+  2.      lecanemab - placebo  
+  3.     crenezumab - placebo  
+  4.   bapineuzumab - placebo  
+
+* Note: Comparisons including only one study (when present) have been exc
+> luded from the graph
+file figures\funnel_aes.gph saved
+file figures\funnel_aes.png saved as PNG format
+
+. 
+. log close
+      name:  <unnamed>
+       log:  v:\PP\Network Meta\results\appendix_network_workflow.log
+  log type:  text
+ closed on:  11 May 2026, 13:02:58
+-------------------------------------------------------------------------

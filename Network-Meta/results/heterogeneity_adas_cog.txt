@@ -1,0 +1,54 @@
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+          t1        t2  i2.pair  i2.cons  incons.p
+1    adu10mg   placebo 75.49705 75.64476        NA
+2   bap150ug   placebo       NA       NA        NA
+3     bap1mg  bap500ug  0.00000  0.00000 0.6920461
+4     bap1mg   placebo  0.00000  0.00000        NA
+5   bap500ug   placebo 23.88638 24.32051        NA
+6    bapb2mg   placebo       NA       NA        NA
+7    cre15mg   placebo       NA       NA        NA
+8   cre300mg   placebo       NA       NA        NA
+9    cre60mg   placebo       NA       NA        NA
+10 don1400mg   placebo       NA       NA        NA
+11  gan105mg  gan225mg       NA       NA        NA
+12  gan105mg   placebo       NA       NA        NA
+13  gan225mg   placebo       NA       NA        NA
+14   lec10mg   placebo  0.00000  0.00000        NA
+15 lec2500ug   placebo       NA       NA        NA
+16    lec5mg   placebo  0.00000  0.00000        NA
+17   placebo  pon100ug       NA       NA        NA
+18   placebo   pon10mg       NA       NA        NA
+19   placebo    pon1mg       NA       NA        NA
+20   placebo    pon3mg       NA       NA        NA
+21   placebo  pon500ug       NA       NA        NA
+22   placebo pon7500ug       NA       NA        NA
+23   placebo pon8500ug       NA       NA        NA
+24   placebo sem1500mg       NA       NA        NA
+25   placebo sem4500mg       NA       NA        NA
+26   placebo sem8100mg       NA       NA        NA
+27   placebo  sol100mg  0.00000  0.00000        NA
+28   placebo  sol400mg  0.00000  0.00000        NA
+29   placebo til1000mg       NA       NA        NA
+30   placebo til2000mg       NA       NA        NA
+31   placebo  til300mg       NA       NA        NA
+32  pon100ug    pon1mg       NA       NA        NA
+33  pon100ug  pon500ug       NA       NA        NA
+34    pon1mg  pon500ug       NA       NA        NA
+35    pon3mg pon8500ug       NA       NA        NA
+36 sem1500mg sem4500mg       NA       NA        NA
+37 sem1500mg sem8100mg       NA       NA        NA
+38 sem4500mg sem8100mg       NA       NA        NA
+39 til1000mg til2000mg       NA       NA        NA
+40 til1000mg  til300mg       NA       NA        NA
+41 til2000mg  til300mg       NA       NA        NA
+
+Global I-squared:
+-------------------------
+
+  i2.pair i2.cons
+1       0       0

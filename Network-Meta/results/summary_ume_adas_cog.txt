@@ -1,0 +1,2 @@
+UME model not run.
+Reason: gemtc warns that UME does not handle multi-arm trials correctly for this network.

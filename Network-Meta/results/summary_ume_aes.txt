@@ -1,0 +1,50 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 20001:70000
+Thinning interval = 1 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                             Mean      SD  Naive SE Time-series SE
+d.aducanumab.placebo     1.975632  1.3030 0.0029136       0.035042
+d.bapineuzumab.placebo  -0.070196  0.1412 0.0003156       0.001119
+d.biib092.placebo        0.751844  0.6541 0.0014626       0.010023
+d.crenezumab.placebo    -0.107005  0.2053 0.0004591       0.001525
+d.donanemab.placebo      0.917036  0.7885 0.0017631       0.013032
+d.gantenerumab.placebo   0.507423  0.3933 0.0008795       0.003483
+d.gsk933776.placebo     -0.948946  0.8420 0.0018827       0.015377
+d.lecanemab.placebo      0.717272  0.2171 0.0004854       0.001164
+d.placebo.ponezumab    -16.489994 11.4415 0.0255841       2.048073
+d.placebo.semorinemab   -0.195604  0.4843 0.0010830       0.006054
+d.placebo.solanezumab    0.084119  0.2785 0.0006228       0.001146
+d.placebo.tilavonemab   -0.005663  0.3104 0.0006941       0.003546
+sd.d                     0.202968  0.1500 0.0003354       0.003239
+
+2. Quantiles for each variable:
+
+                             2.5%       25%        50%      75%   97.5%
+d.aducanumab.placebo    -0.121981   1.05216  1.808e+00  2.73867  4.9197
+d.bapineuzumab.placebo  -0.355549  -0.15254 -7.072e-02  0.01300  0.2139
+d.biib092.placebo       -0.532238   0.31582  7.471e-01  1.18412  2.0362
+d.crenezumab.placebo    -0.526596  -0.22385 -1.056e-01  0.01191  0.3067
+d.donanemab.placebo     -0.545007   0.38692  8.931e-01  1.41689  2.5471
+d.gantenerumab.placebo  -0.253278   0.25586  5.015e-01  0.75318  1.3002
+d.gsk933776.placebo     -2.583446  -1.50836 -9.547e-01 -0.39960  0.7250
+d.lecanemab.placebo      0.305629   0.59129  7.085e-01  0.83365  1.1794
+d.placebo.ponezumab    -40.110368 -25.38178 -1.436e+01 -6.80407 -0.3517
+d.placebo.semorinemab   -1.178728  -0.50894 -1.842e-01  0.13102  0.7107
+d.placebo.solanezumab   -0.490025  -0.05749  8.332e-02  0.22613  0.6569
+d.placebo.tilavonemab   -0.626717  -0.20526 -3.781e-05  0.20048  0.5916
+sd.d                     0.009094   0.09280  1.750e-01  0.27774  0.5757
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+54.58306 41.41868 96.00175 
+
+52 data points, ratio 1.05, I^2 = 7%
+
