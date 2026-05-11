@@ -1,0 +1,817 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+DALYs (Disability-Adjusted Life Years),Marshall Islands,Both,Age-standardized,Asthma,Rate,1990,1163.8142962614515,1631.496093437278,891.3572980992374
+DALYs (Disability-Adjusted Life Years),Saudi Arabia,Both,Age-standardized,Asthma,Rate,1990,416.2011579427432,573.1225313292318,308.33372501376954
+DALYs (Disability-Adjusted Life Years),Nicaragua,Both,Age-standardized,Asthma,Rate,1990,434.6087306958428,554.4182252587698,336.74346532252446
+DALYs (Disability-Adjusted Life Years),Japan,Both,Age-standardized,Asthma,Rate,1990,401.2744973338838,546.6100393721849,289.8051423572427
+DALYs (Disability-Adjusted Life Years),Georgia,Both,Age-standardized,Asthma,Rate,1990,236.03711963249827,281.5946426654616,196.96055888086377
+DALYs (Disability-Adjusted Life Years),Mozambique,Both,Age-standardized,Asthma,Rate,1990,631.3629671021927,788.3292311657773,464.233720912054
+DALYs (Disability-Adjusted Life Years),Denmark,Both,Age-standardized,Asthma,Rate,1990,318.10901630967385,432.13820209185366,231.694576071532
+DALYs (Disability-Adjusted Life Years),Uruguay,Both,Age-standardized,Asthma,Rate,1990,412.5911039526747,530.0839256778025,319.2498381572654
+DALYs (Disability-Adjusted Life Years),Dominica,Both,Age-standardized,Asthma,Rate,1990,435.66889002734723,566.3926955116954,336.8360211259099
+DALYs (Disability-Adjusted Life Years),South Africa,Both,Age-standardized,Asthma,Rate,1990,756.1617626013294,891.5204539639034,643.7513009320757
+DALYs (Disability-Adjusted Life Years),Iran (Islamic Republic of),Both,Age-standardized,Asthma,Rate,1990,529.310637468997,651.9694533343736,430.99276515607824
+DALYs (Disability-Adjusted Life Years),Croatia,Both,Age-standardized,Asthma,Rate,1990,282.0845009533217,382.41584632874583,205.98995202315598
+DALYs (Disability-Adjusted Life Years),Greenland,Both,Age-standardized,Asthma,Rate,1990,580.8991669128446,772.2596147183853,435.28683475797976
+DALYs (Disability-Adjusted Life Years),Bolivia (Plurinational State of),Both,Age-standardized,Asthma,Rate,1990,556.2653397861308,751.5444436767576,390.3229092637782
+DALYs (Disability-Adjusted Life Years),Syrian Arab Republic,Both,Age-standardized,Asthma,Rate,1990,626.9956326878346,770.2915620092342,504.00883344524004
+DALYs (Disability-Adjusted Life Years),Belarus,Both,Age-standardized,Asthma,Rate,1990,365.9599103389371,470.23716735192016,283.1589963500497
+DALYs (Disability-Adjusted Life Years),Micronesia (Federated States of),Both,Age-standardized,Asthma,Rate,1990,1333.2667618739624,1786.1353463414036,1019.5384553259836
+DALYs (Disability-Adjusted Life Years),Ghana,Both,Age-standardized,Asthma,Rate,1990,669.9428646997627,817.7585592932946,447.7950049529421
+DALYs (Disability-Adjusted Life Years),Maldives,Both,Age-standardized,Asthma,Rate,1990,686.5844874473014,902.6951885724287,485.2205780271737
+DALYs (Disability-Adjusted Life Years),San Marino,Both,Age-standardized,Asthma,Rate,1990,249.61752617291918,368.55019141401436,165.30267819326912
+DALYs (Disability-Adjusted Life Years),Netherlands,Both,Age-standardized,Asthma,Rate,1990,347.79025311513846,515.4570119204986,228.53047648052632
+DALYs (Disability-Adjusted Life Years),Brunei Darussalam,Both,Age-standardized,Asthma,Rate,2019,327.4808529939782,419.7968615306025,255.87408701981423
+DALYs (Disability-Adjusted Life Years),Lao People's Democratic Republic,Both,Age-standardized,Asthma,Rate,2019,561.9875698040923,729.9043577401601,421.8755777845536
+DALYs (Disability-Adjusted Life Years),Togo,Both,Age-standardized,Asthma,Rate,1990,847.1221084869543,1037.9280034713117,680.0498022504569
+DALYs (Disability-Adjusted Life Years),Panama,Both,Age-standardized,Asthma,Rate,1990,342.690838334111,453.34788415024195,258.5581245088492
+DALYs (Disability-Adjusted Life Years),Slovenia,Both,Age-standardized,Asthma,Rate,2019,187.58044323604958,281.13027292152816,120.42379449502131
+DALYs (Disability-Adjusted Life Years),Republic of Korea,Both,Age-standardized,Asthma,Rate,1990,645.596671983397,764.3232275054131,465.1564142179972
+DALYs (Disability-Adjusted Life Years),Bosnia and Herzegovina,Both,Age-standardized,Asthma,Rate,2019,189.78733723571273,278.98377818872893,125.7346650554074
+DALYs (Disability-Adjusted Life Years),Burundi,Both,Age-standardized,Asthma,Rate,1990,1171.5552715242602,1498.760537552994,825.7412439544588
+DALYs (Disability-Adjusted Life Years),Kiribati,Both,Age-standardized,Asthma,Rate,2019,1795.0850477355007,2242.1615342744785,1411.436674201915
+DALYs (Disability-Adjusted Life Years),Venezuela (Bolivarian Republic of),Both,Age-standardized,Asthma,Rate,1990,292.92576407052223,394.7629469378701,222.01896674892
+DALYs (Disability-Adjusted Life Years),Finland,Both,Age-standardized,Asthma,Rate,1990,294.12434585651187,422.73597586376474,201.33424701368395
+DALYs (Disability-Adjusted Life Years),Puerto Rico,Both,Age-standardized,Asthma,Rate,2019,382.7037543256781,557.4430990476894,253.65522426510958
+DALYs (Disability-Adjusted Life Years),Iraq,Both,Age-standardized,Asthma,Rate,1990,543.2157490416463,661.6677780092573,438.28857740809354
+DALYs (Disability-Adjusted Life Years),Eswatini,Both,Age-standardized,Asthma,Rate,1990,1026.811287772894,1366.1325047544283,783.6402928865165
+DALYs (Disability-Adjusted Life Years),Belgium,Both,Age-standardized,Asthma,Rate,2019,196.04569825562734,285.5694402363235,131.1639009174808
+DALYs (Disability-Adjusted Life Years),Guam,Both,Age-standardized,Asthma,Rate,1990,316.23120880098463,404.3415900359882,247.6551767178369
+DALYs (Disability-Adjusted Life Years),Trinidad and Tobago,Both,Age-standardized,Asthma,Rate,2019,280.49387249701886,389.0236939732968,201.6137273876382
+DALYs (Disability-Adjusted Life Years),Belize,Both,Age-standardized,Asthma,Rate,2019,313.6632367807846,430.0050114536765,227.90649116118922
+DALYs (Disability-Adjusted Life Years),Rwanda,Both,Age-standardized,Asthma,Rate,1990,1430.2876957116246,1804.7963551919447,1064.1975362178014
+DALYs (Disability-Adjusted Life Years),Qatar,Both,Age-standardized,Asthma,Rate,2019,160.89869925202794,230.90714303905403,109.29959968075775
+DALYs (Disability-Adjusted Life Years),Dominican Republic,Both,Age-standardized,Asthma,Rate,1990,501.96689672664724,607.856408531451,397.2378265072062
+DALYs (Disability-Adjusted Life Years),Côte d'Ivoire,Both,Age-standardized,Asthma,Rate,2019,444.60123371551674,555.6444692336967,352.9753775868946
+DALYs (Disability-Adjusted Life Years),Ecuador,Both,Age-standardized,Asthma,Rate,1990,381.8089717640526,501.2564881827308,268.412715083101
+DALYs (Disability-Adjusted Life Years),India,Both,Age-standardized,Asthma,Rate,1990,977.1686658110743,1427.5620897660656,630.4744085864355
+DALYs (Disability-Adjusted Life Years),Cyprus,Both,Age-standardized,Asthma,Rate,2019,299.358198855001,439.9377478124548,199.18956405850608
+DALYs (Disability-Adjusted Life Years),Bahrain,Both,Age-standardized,Asthma,Rate,2019,234.14794803908578,310.3555954740949,178.95057218288167
+DALYs (Disability-Adjusted Life Years),Guinea,Both,Age-standardized,Asthma,Rate,1990,945.4196087015717,1157.8971440335142,748.5500545556988
+DALYs (Disability-Adjusted Life Years),Czechia,Both,Age-standardized,Asthma,Rate,1990,179.79240065938686,243.02168897405116,134.38724495195905
+DALYs (Disability-Adjusted Life Years),Mauritius,Both,Age-standardized,Asthma,Rate,2019,301.64947298687684,374.22402981948505,237.50109043067917
+DALYs (Disability-Adjusted Life Years),Pakistan,Both,Age-standardized,Asthma,Rate,1990,700.361518842919,1039.0217392771413,510.0367010719812
+DALYs (Disability-Adjusted Life Years),Senegal,Both,Age-standardized,Asthma,Rate,2019,412.3672372384566,524.3755802798144,323.4003441104367
+DALYs (Disability-Adjusted Life Years),Papua New Guinea,Both,Age-standardized,Asthma,Rate,1990,1716.7877218965739,2334.8795661760355,1319.0132366313137
+DALYs (Disability-Adjusted Life Years),Luxembourg,Both,Age-standardized,Asthma,Rate,2019,286.66691428972786,415.1759779087007,190.60029333682854
+DALYs (Disability-Adjusted Life Years),Estonia,Both,Age-standardized,Asthma,Rate,1990,208.2458056640134,258.135154702509,166.85905053451117
+DALYs (Disability-Adjusted Life Years),Canada,Both,Age-standardized,Asthma,Rate,1990,254.2319583363773,361.31612386381806,178.75679160699346
+DALYs (Disability-Adjusted Life Years),Norway,Both,Age-standardized,Asthma,Rate,1990,539.5917069266512,737.0682793803054,389.99205357039153
+DALYs (Disability-Adjusted Life Years),Azerbaijan,Both,Age-standardized,Asthma,Rate,2019,172.3749830863206,235.99144904795062,131.64958060327726
+DALYs (Disability-Adjusted Life Years),Singapore,Both,Age-standardized,Asthma,Rate,1990,415.8435796757359,536.9189911342619,319.0060175209075
+DALYs (Disability-Adjusted Life Years),Malaysia,Both,Age-standardized,Asthma,Rate,2019,192.92332452806875,251.05766115295367,146.16525374512332
+DALYs (Disability-Adjusted Life Years),Tokelau,Both,Age-standardized,Asthma,Rate,1990,904.2642088827131,1193.6674482222422,684.4578836812199
+DALYs (Disability-Adjusted Life Years),Kazakhstan,Both,Age-standardized,Asthma,Rate,1990,301.6111345248694,378.2276120723202,238.78743150135892
+DALYs (Disability-Adjusted Life Years),Namibia,Both,Age-standardized,Asthma,Rate,2019,429.38890303701737,551.7807108053439,328.18030594905093
+DALYs (Disability-Adjusted Life Years),Hungary,Both,Age-standardized,Asthma,Rate,1990,218.87489850625596,296.71313448560875,162.22484121958945
+DALYs (Disability-Adjusted Life Years),Latvia,Both,Age-standardized,Asthma,Rate,1990,309.35012190501607,401.40190757331345,238.32694395929133
+DALYs (Disability-Adjusted Life Years),Jordan,Both,Age-standardized,Asthma,Rate,1990,369.1382109187236,460.63027419559444,293.3599902341374
+DALYs (Disability-Adjusted Life Years),Tunisia,Both,Age-standardized,Asthma,Rate,1990,426.3181167850537,554.8125621902793,340.7646491040429
+DALYs (Disability-Adjusted Life Years),Myanmar,Both,Age-standardized,Asthma,Rate,1990,1859.7870805403982,2341.727995625705,1293.9146417872796
+DALYs (Disability-Adjusted Life Years),Kyrgyzstan,Both,Age-standardized,Asthma,Rate,1990,263.4763196907345,330.5851424814624,207.5956356358683
+DALYs (Disability-Adjusted Life Years),Australia,Both,Age-standardized,Asthma,Rate,1990,576.5421401340193,775.1771309932773,421.2642159676232
+DALYs (Disability-Adjusted Life Years),Grenada,Both,Age-standardized,Asthma,Rate,1990,413.58393273153985,545.798791355589,307.9998595094764
+DALYs (Disability-Adjusted Life Years),Marshall Islands,Both,Age-standardized,Asthma,Rate,2019,707.3697410077252,938.8231589230651,507.63092720101844
+DALYs (Disability-Adjusted Life Years),Bhutan,Both,Age-standardized,Asthma,Rate,2019,341.8152336482909,490.2400169697829,247.76792391164125
+DALYs (Disability-Adjusted Life Years),Philippines,Both,Age-standardized,Asthma,Rate,1990,989.5981280306244,1143.5516247891205,858.5867554945673
+DALYs (Disability-Adjusted Life Years),Tuvalu,Both,Age-standardized,Asthma,Rate,1990,1324.7225184191989,1752.1824005610601,975.4567783217238
+DALYs (Disability-Adjusted Life Years),Cuba,Both,Age-standardized,Asthma,Rate,2019,325.92915378838,471.3730467266887,221.63441311057232
+DALYs (Disability-Adjusted Life Years),Mexico,Both,Age-standardized,Asthma,Rate,2019,142.86358574769432,206.55729316082454,99.99740078223644
+DALYs (Disability-Adjusted Life Years),Chile,Both,Age-standardized,Asthma,Rate,2019,221.57927515319463,318.98769465448476,150.75291890046378
+DALYs (Disability-Adjusted Life Years),Nepal,Both,Age-standardized,Asthma,Rate,1990,1429.5236699240356,2060.2588203972477,877.353753263653
+DALYs (Disability-Adjusted Life Years),Seychelles,Both,Age-standardized,Asthma,Rate,1990,379.1323979282689,471.14806725368186,313.50787768892684
+DALYs (Disability-Adjusted Life Years),Equatorial Guinea,Both,Age-standardized,Asthma,Rate,2019,329.13845541773986,516.3412913597865,225.85601847632643
+DALYs (Disability-Adjusted Life Years),Lithuania,Both,Age-standardized,Asthma,Rate,1990,197.49529213997178,260.1599863002038,148.62517930367858
+DALYs (Disability-Adjusted Life Years),China,Both,Age-standardized,Asthma,Rate,1990,209.2433563675687,272.32945057730007,159.56597186936867
+DALYs (Disability-Adjusted Life Years),Djibouti,Both,Age-standardized,Asthma,Rate,1990,654.7686919333632,845.7294515698634,480.3809169506822
+DALYs (Disability-Adjusted Life Years),Egypt,Both,Age-standardized,Asthma,Rate,2019,427.5955522510375,554.6428771840391,321.74718428094405
+DALYs (Disability-Adjusted Life Years),Saudi Arabia,Both,Age-standardized,Asthma,Rate,2019,228.28888576156876,290.52248399125665,179.73684640115917
+DALYs (Disability-Adjusted Life Years),Japan,Both,Age-standardized,Asthma,Rate,2019,161.15462197463756,241.75132438608188,104.80204798141084
+DALYs (Disability-Adjusted Life Years),Bulgaria,Both,Age-standardized,Asthma,Rate,2019,149.87000030864633,220.6206475995713,96.64458705171087
+DALYs (Disability-Adjusted Life Years),Georgia,Both,Age-standardized,Asthma,Rate,2019,125.32093480376349,167.92044170220865,95.61698943517656
+DALYs (Disability-Adjusted Life Years),United States of America,Both,Age-standardized,Asthma,Rate,1990,417.4663619616775,591.9054816012055,287.93375019769184
+DALYs (Disability-Adjusted Life Years),Portugal,Both,Age-standardized,Asthma,Rate,1990,513.2114973184756,726.8100427045764,356.96855152899263
+DALYs (Disability-Adjusted Life Years),India,Both,Age-standardized,Asthma,Rate,2019,498.51818034147567,639.8313914103505,357.5048528869291
+DALYs (Disability-Adjusted Life Years),Maldives,Both,Age-standardized,Asthma,Rate,2019,167.4557865472309,222.34775345808333,125.37599097715048
+DALYs (Disability-Adjusted Life Years),Micronesia (Federated States of),Both,Age-standardized,Asthma,Rate,2019,689.5738191455692,921.3481742285397,503.94416939975065
+DALYs (Disability-Adjusted Life Years),Sierra Leone,Both,Age-standardized,Asthma,Rate,2019,490.6536392386337,626.4108788078672,378.40013554637636
+DALYs (Disability-Adjusted Life Years),Peru,Both,Age-standardized,Asthma,Rate,1990,353.1521623527404,482.0850485144117,253.11055497353655
+DALYs (Disability-Adjusted Life Years),Samoa,Both,Age-standardized,Asthma,Rate,1990,929.8528877042041,1286.5906523503643,695.6489283252173
+DALYs (Disability-Adjusted Life Years),Brazil,Both,Age-standardized,Asthma,Rate,1990,343.0603640277583,477.3656235232488,253.10704524181216
+DALYs (Disability-Adjusted Life Years),Mozambique,Both,Age-standardized,Asthma,Rate,2019,469.542906759502,600.0705245355988,359.7875716410762
+DALYs (Disability-Adjusted Life Years),Gambia,Both,Age-standardized,Asthma,Rate,2019,478.2817884799591,607.2953237310052,365.1790082579305
+DALYs (Disability-Adjusted Life Years),Comoros,Both,Age-standardized,Asthma,Rate,1990,734.1897295883825,1001.3650865674822,446.7097352764391
+DALYs (Disability-Adjusted Life Years),Malta,Both,Age-standardized,Asthma,Rate,2019,287.0799995018872,424.176643677071,185.94965789336197
+DALYs (Disability-Adjusted Life Years),Uruguay,Both,Age-standardized,Asthma,Rate,2019,273.9815593134409,382.16982942710433,195.84900000371013
+DALYs (Disability-Adjusted Life Years),Denmark,Both,Age-standardized,Asthma,Rate,2019,201.82567663740926,295.3139646733108,133.3930278816779
+DALYs (Disability-Adjusted Life Years),San Marino,Both,Age-standardized,Asthma,Rate,2019,238.18390072452038,355.51150622455134,156.31100287125645
+DALYs (Disability-Adjusted Life Years),France,Both,Age-standardized,Asthma,Rate,1990,442.7411746489589,615.7225023091524,311.1755925294422
+DALYs (Disability-Adjusted Life Years),Guinea-Bissau,Both,Age-standardized,Asthma,Rate,1990,1290.2263041342467,1587.895661549538,1011.221686475991
+DALYs (Disability-Adjusted Life Years),Eritrea,Both,Age-standardized,Asthma,Rate,1990,1046.4596384255615,1349.6206980733207,722.061847629088
+DALYs (Disability-Adjusted Life Years),Ghana,Both,Age-standardized,Asthma,Rate,2019,408.1949485804731,512.886091507128,292.6495757386844
+DALYs (Disability-Adjusted Life Years),Belarus,Both,Age-standardized,Asthma,Rate,2019,152.27268204402029,222.09147170754377,100.84797957715692
+DALYs (Disability-Adjusted Life Years),Sri Lanka,Both,Age-standardized,Asthma,Rate,1990,1524.5221763260079,1708.211219523554,1308.9338965351415
+DALYs (Disability-Adjusted Life Years),Nauru,Both,Age-standardized,Asthma,Rate,1990,975.7608568632561,1212.4847986974805,733.0967913103975
+DALYs (Disability-Adjusted Life Years),United Arab Emirates,Both,Age-standardized,Asthma,Rate,1990,1061.7768071538685,1505.992760393959,784.4148016077485
+DALYs (Disability-Adjusted Life Years),Cook Islands,Both,Age-standardized,Asthma,Rate,2019,243.63869658117287,322.4812809991566,176.50661664780773
+DALYs (Disability-Adjusted Life Years),Turkey,Both,Age-standardized,Asthma,Rate,1990,435.1691865881928,553.2599790137987,338.4077758909735
+DALYs (Disability-Adjusted Life Years),Saint Kitts and Nevis,Both,Age-standardized,Asthma,Rate,2019,275.2557411630054,395.9515702903591,186.58716246489902
+DALYs (Disability-Adjusted Life Years),Nicaragua,Both,Age-standardized,Asthma,Rate,2019,206.19902330973125,289.0268603447651,147.16729255883507
+DALYs (Disability-Adjusted Life Years),Republic of Moldova,Both,Age-standardized,Asthma,Rate,1990,218.38014232269558,285.92312512742797,164.0699573525626
+DALYs (Disability-Adjusted Life Years),Mongolia,Both,Age-standardized,Asthma,Rate,1990,426.4806895604163,534.8486303616813,337.6006282482054
+DALYs (Disability-Adjusted Life Years),Greenland,Both,Age-standardized,Asthma,Rate,2019,316.81685720988196,441.0421867890437,225.096704822519
+DALYs (Disability-Adjusted Life Years),Kazakhstan,Both,Age-standardized,Asthma,Rate,2019,221.00674513854065,275.57160583639484,173.5227451767607
+DALYs (Disability-Adjusted Life Years),Netherlands,Both,Age-standardized,Asthma,Rate,2019,278.60468016299507,410.2826189757979,178.48206615730814
+DALYs (Disability-Adjusted Life Years),Finland,Both,Age-standardized,Asthma,Rate,2019,250.25593181353725,365.93925366417164,163.90402051404004
+DALYs (Disability-Adjusted Life Years),United States Virgin Islands,Both,Age-standardized,Asthma,Rate,1990,317.4888054405477,426.2768780018273,242.40065689185462
+DALYs (Disability-Adjusted Life Years),Colombia,Both,Age-standardized,Asthma,Rate,1990,297.9648833758712,395.43719839542393,227.56529571909255
+DALYs (Disability-Adjusted Life Years),Gabon,Both,Age-standardized,Asthma,Rate,2019,307.10161320080294,392.6302511991153,230.41607691961022
+DALYs (Disability-Adjusted Life Years),Burkina Faso,Both,Age-standardized,Asthma,Rate,1990,548.4138026693487,662.1307694607355,436.742749775989
+DALYs (Disability-Adjusted Life Years),Democratic People's Republic of Korea,Both,Age-standardized,Asthma,Rate,1990,361.74950712872936,468.7647900381741,268.31516269070045
+DALYs (Disability-Adjusted Life Years),Guyana,Both,Age-standardized,Asthma,Rate,1990,503.3089740830472,633.608003192537,403.2626333668682
+DALYs (Disability-Adjusted Life Years),Syrian Arab Republic,Both,Age-standardized,Asthma,Rate,2019,383.1493214788864,480.89502262203007,305.02804159403144
+DALYs (Disability-Adjusted Life Years),Spain,Both,Age-standardized,Asthma,Rate,1990,233.73692311565273,329.5512864113819,166.44916376654396
+DALYs (Disability-Adjusted Life Years),Germany,Both,Age-standardized,Asthma,Rate,1990,391.17319237007155,523.0094555063914,295.5803044680334
+DALYs (Disability-Adjusted Life Years),North Macedonia,Both,Age-standardized,Asthma,Rate,1990,417.8862801318778,561.1757173304453,306.0064985808398
+DALYs (Disability-Adjusted Life Years),Kyrgyzstan,Both,Age-standardized,Asthma,Rate,2019,126.34758977730816,175.84234245995802,91.45618234543723
+DALYs (Disability-Adjusted Life Years),Panama,Both,Age-standardized,Asthma,Rate,2019,220.68813875109515,312.79457098257575,152.5108613388491
+DALYs (Disability-Adjusted Life Years),New Zealand,Both,Age-standardized,Asthma,Rate,1990,681.6888664374724,951.7977480208554,485.3689066418029
+DALYs (Disability-Adjusted Life Years),Monaco,Both,Age-standardized,Asthma,Rate,1990,262.51039279102247,387.3801556339017,174.9826679533152
+DALYs (Disability-Adjusted Life Years),Myanmar,Both,Age-standardized,Asthma,Rate,2019,664.4871154606899,822.0412174482764,500.4348933698869
+DALYs (Disability-Adjusted Life Years),Somalia,Both,Age-standardized,Asthma,Rate,1990,1201.811700882928,1627.7297277220923,757.3566589708663
+DALYs (Disability-Adjusted Life Years),Zimbabwe,Both,Age-standardized,Asthma,Rate,1990,640.1115708659711,742.3766353204687,536.586428861915
+DALYs (Disability-Adjusted Life Years),Tokelau,Both,Age-standardized,Asthma,Rate,2019,410.8318340237874,530.6905373798046,307.66841123152193
+DALYs (Disability-Adjusted Life Years),Tajikistan,Both,Age-standardized,Asthma,Rate,1990,347.1388178683124,450.8057692411069,265.702649823752
+DALYs (Disability-Adjusted Life Years),Philippines,Both,Age-standardized,Asthma,Rate,2019,588.9994531252073,696.536165320519,493.03277912351666
+DALYs (Disability-Adjusted Life Years),Liberia,Both,Age-standardized,Asthma,Rate,1990,586.9001384244627,708.0822286124794,470.3772636368707
+DALYs (Disability-Adjusted Life Years),United Republic of Tanzania,Both,Age-standardized,Asthma,Rate,1990,603.9961519186207,742.662674425916,472.37283968227996
+DALYs (Disability-Adjusted Life Years),Jamaica,Both,Age-standardized,Asthma,Rate,1990,395.4597522853099,521.2139689949249,296.79292902220027
+DALYs (Disability-Adjusted Life Years),Dominica,Both,Age-standardized,Asthma,Rate,2019,410.4068018405158,540.3406089840697,308.8061325137078
+DALYs (Disability-Adjusted Life Years),South Africa,Both,Age-standardized,Asthma,Rate,2019,414.3500761544546,518.4047478115153,342.2524476888739
+DALYs (Disability-Adjusted Life Years),Bolivia (Plurinational State of),Both,Age-standardized,Asthma,Rate,2019,227.69416322153918,320.08424541278276,160.4730035385308
+DALYs (Disability-Adjusted Life Years),Rwanda,Both,Age-standardized,Asthma,Rate,2019,637.6139371459918,860.0194447563783,471.7850100616924
+DALYs (Disability-Adjusted Life Years),Niue,Both,Age-standardized,Asthma,Rate,1990,625.3565049924296,769.4258588704314,475.6653386009904
+DALYs (Disability-Adjusted Life Years),Guinea,Both,Age-standardized,Asthma,Rate,2019,622.833476343003,780.6208042432773,485.41069020248335
+DALYs (Disability-Adjusted Life Years),Iran (Islamic Republic of),Both,Age-standardized,Asthma,Rate,2019,232.26603007759738,299.3143389186028,184.9787307989623
+DALYs (Disability-Adjusted Life Years),Timor-Leste,Both,Age-standardized,Asthma,Rate,1990,1096.0014936217688,1414.0514564774865,789.1556998289745
+DALYs (Disability-Adjusted Life Years),Ethiopia,Both,Age-standardized,Asthma,Rate,1990,804.382841177789,999.1397953112394,595.5813952149783
+DALYs (Disability-Adjusted Life Years),Costa Rica,Both,Age-standardized,Asthma,Rate,1990,346.0895808237354,481.5078145643403,244.49187322279903
+DALYs (Disability-Adjusted Life Years),Papua New Guinea,Both,Age-standardized,Asthma,Rate,2019,1250.2527021348023,1697.6157177667612,941.2356977028767
+DALYs (Disability-Adjusted Life Years),Croatia,Both,Age-standardized,Asthma,Rate,2019,166.31945449132658,248.9373962153897,109.01860419578726
+DALYs (Disability-Adjusted Life Years),Haiti,Both,Age-standardized,Asthma,Rate,1990,1286.2894194285439,1690.4351262942107,915.7075863782801
+DALYs (Disability-Adjusted Life Years),Antigua and Barbuda,Both,Age-standardized,Asthma,Rate,1990,282.9977166531481,394.77728905574054,203.74095781596822
+DALYs (Disability-Adjusted Life Years),Guam,Both,Age-standardized,Asthma,Rate,2019,210.9321111504603,285.97192616072124,153.95818698782338
+DALYs (Disability-Adjusted Life Years),Nepal,Both,Age-standardized,Asthma,Rate,2019,740.994871370209,1040.924630144492,482.276053958803
+DALYs (Disability-Adjusted Life Years),Sri Lanka,Both,Age-standardized,Asthma,Rate,2019,726.9453700304884,914.9281415728686,539.6632165596762
+DALYs (Disability-Adjusted Life Years),Kuwait,Both,Age-standardized,Asthma,Rate,1990,299.52472397116054,388.50211555459947,230.0694354994129
+DALYs (Disability-Adjusted Life Years),Montenegro,Both,Age-standardized,Asthma,Rate,1990,139.0765295756374,205.4146966971644,91.4500653023934
+DALYs (Disability-Adjusted Life Years),Latvia,Both,Age-standardized,Asthma,Rate,2019,144.0112921138067,206.97905291694042,97.38897816931875
+DALYs (Disability-Adjusted Life Years),Seychelles,Both,Age-standardized,Asthma,Rate,2019,232.32586357377562,295.99518016071056,178.50123676532795
+DALYs (Disability-Adjusted Life Years),Turkmenistan,Both,Age-standardized,Asthma,Rate,1990,384.23243394103844,473.3901566582489,294.24770473105673
+DALYs (Disability-Adjusted Life Years),Yemen,Both,Age-standardized,Asthma,Rate,1990,1033.3190177443203,1502.7063936069098,719.2815758958642
+DALYs (Disability-Adjusted Life Years),Solomon Islands,Both,Age-standardized,Asthma,Rate,1990,1292.6058139442875,1676.5404524701273,961.0820471055348
+DALYs (Disability-Adjusted Life Years),Tunisia,Both,Age-standardized,Asthma,Rate,2019,255.81735298736865,333.9307361745418,192.65127516020243
+DALYs (Disability-Adjusted Life Years),Benin,Both,Age-standardized,Asthma,Rate,1990,834.1435075521099,1018.2016160887039,656.6370561301113
+DALYs (Disability-Adjusted Life Years),Ecuador,Both,Age-standardized,Asthma,Rate,2019,174.6685346106285,270.78158466548234,112.0113760214723
+DALYs (Disability-Adjusted Life Years),Thailand,Both,Age-standardized,Asthma,Rate,1990,469.8356568150732,565.8227173672265,377.04304434932146
+DALYs (Disability-Adjusted Life Years),Angola,Both,Age-standardized,Asthma,Rate,1990,1015.4439408075777,1386.6321775069125,742.5642293455467
+DALYs (Disability-Adjusted Life Years),Burundi,Both,Age-standardized,Asthma,Rate,2019,590.5457027265002,865.3716917967269,423.0850977640997
+DALYs (Disability-Adjusted Life Years),Estonia,Both,Age-standardized,Asthma,Rate,2019,103.8798880335605,147.07261296354778,72.28786539140451
+DALYs (Disability-Adjusted Life Years),Zimbabwe,Both,Age-standardized,Asthma,Rate,2019,631.7589338135115,844.0867788063293,441.9583752807386
+DALYs (Disability-Adjusted Life Years),Lebanon,Both,Age-standardized,Asthma,Rate,1990,475.4269881901485,607.4381808408275,368.32501640427347
+DALYs (Disability-Adjusted Life Years),Guinea-Bissau,Both,Age-standardized,Asthma,Rate,2019,675.5643879122646,841.4930060810806,521.8833612515004
+DALYs (Disability-Adjusted Life Years),Andorra,Both,Age-standardized,Asthma,Rate,1990,316.0590057910354,450.05704988885924,215.8979582012399
+DALYs (Disability-Adjusted Life Years),Democratic People's Republic of Korea,Both,Age-standardized,Asthma,Rate,2019,256.52216627451315,336.45921020146005,188.6440119488618
+DALYs (Disability-Adjusted Life Years),Norway,Both,Age-standardized,Asthma,Rate,2019,282.86813095314795,420.22390418989113,185.70346609842807
+DALYs (Disability-Adjusted Life Years),Eswatini,Both,Age-standardized,Asthma,Rate,2019,653.3676304253788,834.4298966240294,501.28813950462995
+DALYs (Disability-Adjusted Life Years),Somalia,Both,Age-standardized,Asthma,Rate,2019,815.9978582538776,1313.4191557421104,540.3475549464601
+DALYs (Disability-Adjusted Life Years),Viet Nam,Both,Age-standardized,Asthma,Rate,1990,508.2388293161888,680.44205273645,248.378793415375
+DALYs (Disability-Adjusted Life Years),Mongolia,Both,Age-standardized,Asthma,Rate,2019,197.2360132312649,257.36086881109645,152.50368112569643
+DALYs (Disability-Adjusted Life Years),Iraq,Both,Age-standardized,Asthma,Rate,2019,255.93509798168606,329.5366683374619,197.61332404892445
+DALYs (Disability-Adjusted Life Years),Cameroon,Both,Age-standardized,Asthma,Rate,1990,760.3543102814356,913.5413693205244,624.5125980005377
+DALYs (Disability-Adjusted Life Years),Morocco,Both,Age-standardized,Asthma,Rate,1990,540.8975699709716,734.4020011018976,422.5785025540875
+DALYs (Disability-Adjusted Life Years),Canada,Both,Age-standardized,Asthma,Rate,2019,201.85747718541822,300.99591714871804,133.0846953797794
+DALYs (Disability-Adjusted Life Years),Lithuania,Both,Age-standardized,Asthma,Rate,2019,121.03764794702717,176.79869903110486,82.44300534996881
+DALYs (Disability-Adjusted Life Years),Tonga,Both,Age-standardized,Asthma,Rate,1990,552.9148581167425,697.1388353303604,448.2495740885304
+DALYs (Disability-Adjusted Life Years),Republic of Korea,Both,Age-standardized,Asthma,Rate,2019,178.52372912897286,251.80007303528313,126.08625399221364
+DALYs (Disability-Adjusted Life Years),Tuvalu,Both,Age-standardized,Asthma,Rate,2019,567.6488529292659,730.3094438951596,435.10210716418914
+DALYs (Disability-Adjusted Life Years),Uganda,Both,Age-standardized,Asthma,Rate,1990,784.9137109479601,1064.3975251112524,540.2948947269845
+DALYs (Disability-Adjusted Life Years),Dominican Republic,Both,Age-standardized,Asthma,Rate,2019,297.8989327552392,385.06024780666314,221.645257604774
+DALYs (Disability-Adjusted Life Years),Greece,Both,Age-standardized,Asthma,Rate,1990,253.1360598453106,370.40058745541427,170.52657994025182
+DALYs (Disability-Adjusted Life Years),Saint Lucia,Both,Age-standardized,Asthma,Rate,1990,531.1457851635474,673.7483352716403,418.8083410473679
+DALYs (Disability-Adjusted Life Years),Togo,Both,Age-standardized,Asthma,Rate,2019,496.9113171253552,632.5411629898341,380.3602111976732
+DALYs (Disability-Adjusted Life Years),Mali,Both,Age-standardized,Asthma,Rate,1990,979.2296437863001,1202.1023951181426,688.4387822101424
+DALYs (Disability-Adjusted Life Years),Sweden,Both,Age-standardized,Asthma,Rate,1990,500.64585309634754,719.4196020193954,343.5377952203113
+DALYs (Disability-Adjusted Life Years),Samoa,Both,Age-standardized,Asthma,Rate,2019,507.5442253305722,644.8917030429061,399.30515464905505
+DALYs (Disability-Adjusted Life Years),Thailand,Both,Age-standardized,Asthma,Rate,2019,225.56761442549293,298.5314080967899,170.55236441745376
+DALYs (Disability-Adjusted Life Years),Turkey,Both,Age-standardized,Asthma,Rate,2019,253.48739971384745,347.0939965157275,182.60493665246457
+DALYs (Disability-Adjusted Life Years),Sudan,Both,Age-standardized,Asthma,Rate,1990,970.1873643803098,1386.0344116547724,657.0468099159401
+DALYs (Disability-Adjusted Life Years),Paraguay,Both,Age-standardized,Asthma,Rate,2019,250.00122977262063,370.7037467120475,167.01667642839297
+DALYs (Disability-Adjusted Life Years),Northern Mariana Islands,Both,Age-standardized,Asthma,Rate,1990,416.94633906987536,514.1327801327689,336.22837398277517
+DALYs (Disability-Adjusted Life Years),South Sudan,Both,Age-standardized,Asthma,Rate,1990,770.5630068247204,994.5158273852479,547.0239646317881
+DALYs (Disability-Adjusted Life Years),Taiwan (Province of China),Both,Age-standardized,Asthma,Rate,1990,418.5558915548273,503.5843253412743,351.14757478566435
+DALYs (Disability-Adjusted Life Years),Poland,Both,Age-standardized,Asthma,Rate,1990,516.3757852813906,697.2685010395645,381.61309057486187
+DALYs (Disability-Adjusted Life Years),Vanuatu,Both,Age-standardized,Asthma,Rate,1990,1147.5571430243665,1712.616532493164,778.2913922235257
+DALYs (Disability-Adjusted Life Years),Uzbekistan,Both,Age-standardized,Asthma,Rate,1990,446.9409056091983,553.2002249746556,347.315188601398
+DALYs (Disability-Adjusted Life Years),France,Both,Age-standardized,Asthma,Rate,2019,272.36146635491866,401.39062831355136,180.1455710062968
+DALYs (Disability-Adjusted Life Years),Czechia,Both,Age-standardized,Asthma,Rate,2019,133.93654480594228,197.1061403440229,88.49369034536677
+DALYs (Disability-Adjusted Life Years),Peru,Both,Age-standardized,Asthma,Rate,2019,189.79839231564566,295.30900232507776,119.90294476481554
+DALYs (Disability-Adjusted Life Years),Bahamas,Both,Age-standardized,Asthma,Rate,1990,328.17625414961753,437.9396677243205,249.12732626295522
+DALYs (Disability-Adjusted Life Years),United States Virgin Islands,Both,Age-standardized,Asthma,Rate,2019,277.1247157838643,392.6619175008924,194.38764816977454
+DALYs (Disability-Adjusted Life Years),Paraguay,Both,Age-standardized,Asthma,Rate,1990,242.42087018368838,337.9017756559508,174.16918245783364
+DALYs (Disability-Adjusted Life Years),Jordan,Both,Age-standardized,Asthma,Rate,2019,212.33419921511475,293.60545841175326,151.09473240082454
+DALYs (Disability-Adjusted Life Years),Palestine,Both,Age-standardized,Asthma,Rate,1990,413.6494750654965,524.5067227230687,317.07494914723344
+DALYs (Disability-Adjusted Life Years),Pakistan,Both,Age-standardized,Asthma,Rate,2019,414.77751393089585,544.5411173648164,330.09156226482065
+DALYs (Disability-Adjusted Life Years),Zambia,Both,Age-standardized,Asthma,Rate,1990,643.402506071038,777.0022665958461,504.95637536879514
+DALYs (Disability-Adjusted Life Years),Cambodia,Both,Age-standardized,Asthma,Rate,1990,696.571595758122,827.6167394433808,531.052494794349
+DALYs (Disability-Adjusted Life Years),Monaco,Both,Age-standardized,Asthma,Rate,2019,247.95237474157022,366.1357547758153,163.4978889994838
+DALYs (Disability-Adjusted Life Years),Australia,Both,Age-standardized,Asthma,Rate,2019,373.8338949817617,549.8363894983015,245.5206493235215
+DALYs (Disability-Adjusted Life Years),Hungary,Both,Age-standardized,Asthma,Rate,2019,143.6355074691363,212.3269074801248,95.94742847010365
+DALYs (Disability-Adjusted Life Years),United Republic of Tanzania,Both,Age-standardized,Asthma,Rate,2019,455.6630937422322,587.014901859167,347.11084072446914
+DALYs (Disability-Adjusted Life Years),Venezuela (Bolivarian Republic of),Both,Age-standardized,Asthma,Rate,2019,197.745305406911,282.60688553074624,135.98128345753275
+DALYs (Disability-Adjusted Life Years),Spain,Both,Age-standardized,Asthma,Rate,2019,189.84876772998012,277.08395321148964,126.02594771361468
+DALYs (Disability-Adjusted Life Years),United Arab Emirates,Both,Age-standardized,Asthma,Rate,2019,554.1131492722025,778.2971991685438,397.49936637447234
+DALYs (Disability-Adjusted Life Years),Kuwait,Both,Age-standardized,Asthma,Rate,2019,193.60053186283767,279.04055949480045,128.7581025156632
+DALYs (Disability-Adjusted Life Years),Sudan,Both,Age-standardized,Asthma,Rate,2019,464.3246039939496,638.6023994494034,335.028785010706
+DALYs (Disability-Adjusted Life Years),Central African Republic,Both,Age-standardized,Asthma,Rate,1990,1277.1955098869494,1818.0809371189623,883.0623930827966
+DALYs (Disability-Adjusted Life Years),Liberia,Both,Age-standardized,Asthma,Rate,2019,321.78010961165415,432.4503175682996,236.4791423005167
+DALYs (Disability-Adjusted Life Years),Libya,Both,Age-standardized,Asthma,Rate,1990,464.10860398689516,589.4558425683878,353.2683302226447
+DALYs (Disability-Adjusted Life Years),Portugal,Both,Age-standardized,Asthma,Rate,2019,364.3455075108627,545.4052170624226,236.94336183833738
+DALYs (Disability-Adjusted Life Years),Singapore,Both,Age-standardized,Asthma,Rate,2019,159.04549436262712,235.47234496377325,104.46289011094834
+DALYs (Disability-Adjusted Life Years),Switzerland,Both,Age-standardized,Asthma,Rate,1990,384.25388209797705,544.5957338592692,267.677939952742
+DALYs (Disability-Adjusted Life Years),Saint Vincent and the Grenadines,Both,Age-standardized,Asthma,Rate,1990,366.4913478578729,485.9725762362801,279.8689511415579
+DALYs (Disability-Adjusted Life Years),Djibouti,Both,Age-standardized,Asthma,Rate,2019,379.96496126649845,497.38871819058363,264.59669273425766
+DALYs (Disability-Adjusted Life Years),Benin,Both,Age-standardized,Asthma,Rate,2019,457.35945003464286,589.5867635118046,352.4524386883621
+DALYs (Disability-Adjusted Life Years),Guyana,Both,Age-standardized,Asthma,Rate,2019,389.56555812801315,517.4780882180164,289.54311239481774
+DALYs (Disability-Adjusted Life Years),American Samoa,Both,Age-standardized,Asthma,Rate,1990,554.1507314908857,668.7407191041827,461.4675870924936
+DALYs (Disability-Adjusted Life Years),Mauritania,Both,Age-standardized,Asthma,Rate,1990,805.4796499249851,987.2477834666113,607.4062956289657
+DALYs (Disability-Adjusted Life Years),United Kingdom,Both,Age-standardized,Asthma,Rate,1990,623.1933528991025,880.4819490949001,433.4445634522408
+DALYs (Disability-Adjusted Life Years),Taiwan (Province of China),Both,Age-standardized,Asthma,Rate,2019,168.76014016304129,238.01884484798617,117.4969008976065
+DALYs (Disability-Adjusted Life Years),Germany,Both,Age-standardized,Asthma,Rate,2019,177.20417238991402,258.5916596959826,117.38205433112533
+DALYs (Disability-Adjusted Life Years),United States of America,Both,Age-standardized,Asthma,Rate,2019,436.01407547617254,616.0825240334891,298.10352632471773
+DALYs (Disability-Adjusted Life Years),Iceland,Both,Age-standardized,Asthma,Rate,1990,423.3159911407277,595.6856568587366,292.8875640728888
+DALYs (Disability-Adjusted Life Years),Yemen,Both,Age-standardized,Asthma,Rate,2019,531.2316411212255,689.1050150866464,404.6206398808947
+DALYs (Disability-Adjusted Life Years),Uganda,Both,Age-standardized,Asthma,Rate,2019,482.30433188478685,648.8061250293116,364.4295987677361
+DALYs (Disability-Adjusted Life Years),Republic of Moldova,Both,Age-standardized,Asthma,Rate,2019,120.39629290741321,179.03044568482554,79.16307995712005
+DALYs (Disability-Adjusted Life Years),Lebanon,Both,Age-standardized,Asthma,Rate,2019,277.30815238240575,366.03324817490017,205.822865418225
+DALYs (Disability-Adjusted Life Years),Comoros,Both,Age-standardized,Asthma,Rate,2019,418.3379355319402,542.9662841304527,319.2594399343207
+DALYs (Disability-Adjusted Life Years),China,Both,Age-standardized,Asthma,Rate,2019,102.80704953104687,147.42432524895864,72.29930995338722
+DALYs (Disability-Adjusted Life Years),New Zealand,Both,Age-standardized,Asthma,Rate,2019,283.86516641927426,416.199916322604,193.01158950293413
+DALYs (Disability-Adjusted Life Years),Grenada,Both,Age-standardized,Asthma,Rate,2019,337.9052453681938,486.80168275418237,229.60009357613546
+DALYs (Disability-Adjusted Life Years),Colombia,Both,Age-standardized,Asthma,Rate,2019,153.12717107788833,230.30289856591307,100.58664993765542
+DALYs (Disability-Adjusted Life Years),Serbia,Both,Age-standardized,Asthma,Rate,1990,245.988816510103,316.52908742067046,193.14841743446914
+DALYs (Disability-Adjusted Life Years),Solomon Islands,Both,Age-standardized,Asthma,Rate,2019,933.1250400904821,1182.3362566170906,688.9475327743877
+DALYs (Disability-Adjusted Life Years),Mauritania,Both,Age-standardized,Asthma,Rate,2019,375.9876377610471,481.5157798909459,280.75243208067224
+DALYs (Disability-Adjusted Life Years),Indonesia,Both,Age-standardized,Asthma,Rate,1990,797.6198853814528,954.6696799599425,661.0451374984669
+DALYs (Disability-Adjusted Life Years),Bermuda,Both,Age-standardized,Asthma,Rate,1990,302.15984895775904,414.27186237765494,216.876779973152
+DALYs (Disability-Adjusted Life Years),El Salvador,Both,Age-standardized,Asthma,Rate,1990,644.1644839010977,825.3626343243959,485.3975543841148
+DALYs (Disability-Adjusted Life Years),Cabo Verde,Both,Age-standardized,Asthma,Rate,1990,559.418093821336,667.0293635935863,379.48223796215564
+DALYs (Disability-Adjusted Life Years),Algeria,Both,Age-standardized,Asthma,Rate,1990,560.1687793613726,703.3499788246784,434.4508963270941
+DALYs (Disability-Adjusted Life Years),Tajikistan,Both,Age-standardized,Asthma,Rate,2019,224.26903002053731,279.0172506969642,175.22577242034444
+DALYs (Disability-Adjusted Life Years),Niger,Both,Age-standardized,Asthma,Rate,1990,996.3610109622244,1251.9983211567805,749.025858149715
+DALYs (Disability-Adjusted Life Years),Democratic Republic of the Congo,Both,Age-standardized,Asthma,Rate,1990,873.5410322416832,1305.154039810458,583.955848879504
+DALYs (Disability-Adjusted Life Years),Kenya,Both,Age-standardized,Asthma,Rate,1990,456.63861182772297,682.6212530356377,327.2110740375787
+DALYs (Disability-Adjusted Life Years),Romania,Both,Age-standardized,Asthma,Rate,1990,260.50599399135615,354.1219957999735,190.78882214259974
+DALYs (Disability-Adjusted Life Years),Libya,Both,Age-standardized,Asthma,Rate,2019,298.06625903509877,386.80148065136484,226.85333226231361
+DALYs (Disability-Adjusted Life Years),Mauritius,Both,Age-standardized,Asthma,Rate,1990,940.2083857827979,1044.359289569818,825.2420635990507
+DALYs (Disability-Adjusted Life Years),Haiti,Both,Age-standardized,Asthma,Rate,2019,737.4080176915029,978.640851781434,524.7994497665753
+DALYs (Disability-Adjusted Life Years),Eritrea,Both,Age-standardized,Asthma,Rate,2019,566.112734084542,744.4560064221223,412.55603110808323
+DALYs (Disability-Adjusted Life Years),Ireland,Both,Age-standardized,Asthma,Rate,1990,490.55605901544476,672.3471015691705,348.50099953707837
+DALYs (Disability-Adjusted Life Years),United Kingdom,Both,Age-standardized,Asthma,Rate,2019,387.04072404804333,566.0968551725539,255.47184467380313
+DALYs (Disability-Adjusted Life Years),Russian Federation,Both,Age-standardized,Asthma,Rate,1990,312.45119154806883,399.6512456345163,244.22324303264355
+DALYs (Disability-Adjusted Life Years),Zambia,Both,Age-standardized,Asthma,Rate,2019,365.35976517042684,457.50953146949354,285.13054415146496
+DALYs (Disability-Adjusted Life Years),Burkina Faso,Both,Age-standardized,Asthma,Rate,2019,389.5238502250611,483.66689589545405,311.8384443112759
+DALYs (Disability-Adjusted Life Years),North Macedonia,Both,Age-standardized,Asthma,Rate,2019,234.58535892478386,335.1847465193105,163.11896514821348
+DALYs (Disability-Adjusted Life Years),Greece,Both,Age-standardized,Asthma,Rate,2019,212.90538804713535,320.5843408085227,137.75600612800247
+DALYs (Disability-Adjusted Life Years),Malaysia,Both,Age-standardized,Asthma,Rate,1990,531.0407805865106,623.8447398012372,439.85735251708473
+DALYs (Disability-Adjusted Life Years),Suriname,Both,Age-standardized,Asthma,Rate,1990,362.3524246556212,479.1497013430226,275.89028711889165
+DALYs (Disability-Adjusted Life Years),Sweden,Both,Age-standardized,Asthma,Rate,2019,309.3343615070677,464.87331698814097,197.7296977925063
+DALYs (Disability-Adjusted Life Years),Madagascar,Both,Age-standardized,Asthma,Rate,1990,1317.1938747725505,1569.4106067340522,1084.3085080888147
+DALYs (Disability-Adjusted Life Years),Cook Islands,Both,Age-standardized,Asthma,Rate,1990,456.8411394179491,566.1081821799615,359.377753933912
+DALYs (Disability-Adjusted Life Years),Afghanistan,Both,Age-standardized,Asthma,Rate,1990,1246.6287671128428,1671.3187335940704,870.0157627740084
+DALYs (Disability-Adjusted Life Years),Niger,Both,Age-standardized,Asthma,Rate,2019,572.3663809680219,780.6493866351957,412.7141993060691
+DALYs (Disability-Adjusted Life Years),Equatorial Guinea,Both,Age-standardized,Asthma,Rate,1990,1092.6256990559737,1657.256692153377,739.418655385029
+DALYs (Disability-Adjusted Life Years),Albania,Both,Age-standardized,Asthma,Rate,1990,301.9395475078505,364.11618592504755,248.16100679396737
+DALYs (Disability-Adjusted Life Years),Costa Rica,Both,Age-standardized,Asthma,Rate,2019,248.28966445023343,364.91282559348736,165.89527747589145
+DALYs (Disability-Adjusted Life Years),Fiji,Both,Age-standardized,Asthma,Rate,1990,2081.3990690369174,2534.027554001094,1684.1206089748712
+DALYs (Disability-Adjusted Life Years),Bulgaria,Both,Age-standardized,Asthma,Rate,1990,213.74329648416523,294.38997153559876,153.7729837709682
+DALYs (Disability-Adjusted Life Years),Turkmenistan,Both,Age-standardized,Asthma,Rate,2019,113.6500441492672,159.22986894185246,78.77205964044403
+DALYs (Disability-Adjusted Life Years),Botswana,Both,Age-standardized,Asthma,Rate,1990,907.9749441754722,1252.5769156072852,656.1739156350264
+DALYs (Disability-Adjusted Life Years),Montenegro,Both,Age-standardized,Asthma,Rate,2019,148.37067200496392,223.3439425606124,94.72457376979905
+DALYs (Disability-Adjusted Life Years),Mali,Both,Age-standardized,Asthma,Rate,2019,602.7671075261932,813.2512606185468,429.3506269310643
+DALYs (Disability-Adjusted Life Years),Guatemala,Both,Age-standardized,Asthma,Rate,1990,680.429645236257,817.6742816489761,522.2087817380724
+DALYs (Disability-Adjusted Life Years),Lao People's Democratic Republic,Both,Age-standardized,Asthma,Rate,1990,1554.2440512298192,1932.4840002396318,1146.8560793039535
+DALYs (Disability-Adjusted Life Years),Cameroon,Both,Age-standardized,Asthma,Rate,2019,395.84855697352697,514.7099102178732,301.77314556213764
+DALYs (Disability-Adjusted Life Years),Ethiopia,Both,Age-standardized,Asthma,Rate,2019,314.00763818840636,431.5831055677555,245.38153777320574
+DALYs (Disability-Adjusted Life Years),Brazil,Both,Age-standardized,Asthma,Rate,2019,226.69512002538866,339.0100716398085,154.2161653426467
+DALYs (Disability-Adjusted Life Years),Nauru,Both,Age-standardized,Asthma,Rate,2019,591.6530054127722,770.1803344420828,395.65330004127907
+DALYs (Disability-Adjusted Life Years),Vanuatu,Both,Age-standardized,Asthma,Rate,2019,791.3549474290089,1103.5417938763476,577.4801718108849
+DALYs (Disability-Adjusted Life Years),Bahrain,Both,Age-standardized,Asthma,Rate,1990,496.9619981737782,600.0930340715427,415.8447388657979
+DALYs (Disability-Adjusted Life Years),Tonga,Both,Age-standardized,Asthma,Rate,2019,360.6920481700518,446.8085727572066,278.4427865085642
+DALYs (Disability-Adjusted Life Years),Israel,Both,Age-standardized,Asthma,Rate,1990,357.0011245864993,481.8397269436511,261.29375406825034
+DALYs (Disability-Adjusted Life Years),Uzbekistan,Both,Age-standardized,Asthma,Rate,2019,265.51206129800113,351.74212893371663,209.6621935123813
+DALYs (Disability-Adjusted Life Years),Timor-Leste,Both,Age-standardized,Asthma,Rate,2019,542.7301504848409,724.3888410336565,394.0418024744359
+DALYs (Disability-Adjusted Life Years),Oman,Both,Age-standardized,Asthma,Rate,1990,160.28258823253736,223.95582528652588,112.26710754722133
+DALYs (Disability-Adjusted Life Years),Lesotho,Both,Age-standardized,Asthma,Rate,1990,921.2497824526833,1432.6120270903125,597.5830829466046
+DALYs (Disability-Adjusted Life Years),Russian Federation,Both,Age-standardized,Asthma,Rate,2019,118.41490127202606,172.503956743366,81.2171464860895
+DALYs (Disability-Adjusted Life Years),Kiribati,Both,Age-standardized,Asthma,Rate,1990,2630.8608997935503,3178.830791753068,2187.9610351839583
+DALYs (Disability-Adjusted Life Years),Iceland,Both,Age-standardized,Asthma,Rate,2019,293.8055649717253,442.92319522721255,189.01675342782272
+DALYs (Disability-Adjusted Life Years),Cyprus,Both,Age-standardized,Asthma,Rate,1990,406.7061247958253,558.3567117231181,289.0369181455287
+DALYs (Disability-Adjusted Life Years),Congo,Both,Age-standardized,Asthma,Rate,1990,955.9685541071146,1382.2857409789694,702.9326605737067
+DALYs (Disability-Adjusted Life Years),Slovakia,Both,Age-standardized,Asthma,Rate,1990,159.33823547173623,220.81696783551,115.97001460871047
+DALYs (Disability-Adjusted Life Years),Bosnia and Herzegovina,Both,Age-standardized,Asthma,Rate,1990,226.53356106647388,317.2966344295987,158.65207129718559
+DALYs (Disability-Adjusted Life Years),Bangladesh,Both,Age-standardized,Asthma,Rate,1990,870.6098659121085,1225.3678483220883,632.1464382805974
+DALYs (Disability-Adjusted Life Years),Andorra,Both,Age-standardized,Asthma,Rate,2019,246.04658301140884,361.0985967655963,163.97446746103304
+DALYs (Disability-Adjusted Life Years),Nigeria,Both,Age-standardized,Asthma,Rate,2019,375.79468710992853,460.2809981416877,297.43908346864384
+DALYs (Disability-Adjusted Life Years),Cabo Verde,Both,Age-standardized,Asthma,Rate,2019,224.1720471332468,283.66250867069874,176.0026597816401
+DALYs (Disability-Adjusted Life Years),Angola,Both,Age-standardized,Asthma,Rate,2019,449.89532258778087,600.9329537643379,338.18342342863576
+DALYs (Disability-Adjusted Life Years),Malawi,Both,Age-standardized,Asthma,Rate,1990,644.9319767167725,791.1770093333705,482.10743935523107
+DALYs (Disability-Adjusted Life Years),Italy,Both,Age-standardized,Asthma,Rate,1990,260.1338415259598,360.52084842615,185.03734235388302
+DALYs (Disability-Adjusted Life Years),Poland,Both,Age-standardized,Asthma,Rate,2019,226.36188213921847,333.73359459252185,149.09172918746552
+DALYs (Disability-Adjusted Life Years),Gabon,Both,Age-standardized,Asthma,Rate,1990,627.5914979675249,801.5499155998128,481.7225832086627
+DALYs (Disability-Adjusted Life Years),Switzerland,Both,Age-standardized,Asthma,Rate,2019,268.5762438623378,399.0458636844777,172.02220810769757
+DALYs (Disability-Adjusted Life Years),Cambodia,Both,Age-standardized,Asthma,Rate,2019,368.4057686951239,448.6733889312491,296.958704740583
+DALYs (Disability-Adjusted Life Years),Nigeria,Both,Age-standardized,Asthma,Rate,1990,613.1773125368104,760.1122354814178,484.55794360657995
+DALYs (Disability-Adjusted Life Years),Ireland,Both,Age-standardized,Asthma,Rate,2019,286.27746285005134,424.019575865565,190.4074021142799
+DALYs (Disability-Adjusted Life Years),Argentina,Both,Age-standardized,Asthma,Rate,1990,352.4860044919457,482.7610786588485,252.88107112262375
+DALYs (Disability-Adjusted Life Years),Trinidad and Tobago,Both,Age-standardized,Asthma,Rate,1990,405.7362229949602,493.56826699974295,339.1412351953881
+DALYs (Disability-Adjusted Life Years),Slovenia,Both,Age-standardized,Asthma,Rate,1990,275.45278133972414,384.75002195452197,191.3329047118254
+DALYs (Disability-Adjusted Life Years),Morocco,Both,Age-standardized,Asthma,Rate,2019,336.8968425183573,424.4889000730312,263.88254876374316
+DALYs (Disability-Adjusted Life Years),Chad,Both,Age-standardized,Asthma,Rate,1990,852.886266510243,1100.22169329199,645.6023535063367
+DALYs (Disability-Adjusted Life Years),American Samoa,Both,Age-standardized,Asthma,Rate,2019,334.72172403470944,423.50635589614654,265.1171512873444
+DALYs (Disability-Adjusted Life Years),Armenia,Both,Age-standardized,Asthma,Rate,1990,127.14512303643754,167.8280900166326,94.5474416874381
+DALYs (Disability-Adjusted Life Years),Kenya,Both,Age-standardized,Asthma,Rate,2019,347.84148383563456,523.644769654779,251.5900183538176
+DALYs (Disability-Adjusted Life Years),Ukraine,Both,Age-standardized,Asthma,Rate,2019,138.8657838650533,208.949653946634,90.21008608799947
+DALYs (Disability-Adjusted Life Years),Ukraine,Both,Age-standardized,Asthma,Rate,1990,227.61439429805054,318.4357581255174,157.8994504302137
+DALYs (Disability-Adjusted Life Years),Jamaica,Both,Age-standardized,Asthma,Rate,2019,300.78115926450783,425.0174796018026,210.77398679163338
+DALYs (Disability-Adjusted Life Years),Argentina,Both,Age-standardized,Asthma,Rate,2019,297.63333502961666,433.34789013680347,200.46711528515794
+DALYs (Disability-Adjusted Life Years),Brunei Darussalam,Both,Age-standardized,Asthma,Rate,1990,681.4342499916503,818.0756721878946,534.1077141677166
+DALYs (Disability-Adjusted Life Years),Suriname,Both,Age-standardized,Asthma,Rate,2019,291.66321635204116,401.6133344115847,209.97142459798823
+DALYs (Disability-Adjusted Life Years),Mexico,Both,Age-standardized,Asthma,Rate,1990,285.39476951770376,358.2501594772301,232.43962869861625
+DALYs (Disability-Adjusted Life Years),Viet Nam,Both,Age-standardized,Asthma,Rate,2019,282.27515947109157,357.8358316007397,183.45675250713617
+DALYs (Disability-Adjusted Life Years),Niue,Both,Age-standardized,Asthma,Rate,2019,349.16157313292547,460.22975108812443,244.67690062395963
+DALYs (Disability-Adjusted Life Years),Antigua and Barbuda,Both,Age-standardized,Asthma,Rate,2019,270.79421852192064,389.57188251966693,184.98863828268873
+DALYs (Disability-Adjusted Life Years),Austria,Both,Age-standardized,Asthma,Rate,1990,343.21043067879157,472.68894211186074,246.73020563855127
+DALYs (Disability-Adjusted Life Years),Romania,Both,Age-standardized,Asthma,Rate,2019,176.00787909909235,260.5748919262375,114.22273332459582
+DALYs (Disability-Adjusted Life Years),Honduras,Both,Age-standardized,Asthma,Rate,1990,647.4830391182469,806.4751258158059,492.2768951734194
+DALYs (Disability-Adjusted Life Years),Central African Republic,Both,Age-standardized,Asthma,Rate,2019,985.0073759858408,1640.8987347260772,641.6316536611839
+DALYs (Disability-Adjusted Life Years),Egypt,Both,Age-standardized,Asthma,Rate,1990,825.9706230101234,993.525505213169,662.1930140674312
+DALYs (Disability-Adjusted Life Years),Qatar,Both,Age-standardized,Asthma,Rate,1990,235.04003829469397,318.71810840053445,173.0967935206753
+DALYs (Disability-Adjusted Life Years),Madagascar,Both,Age-standardized,Asthma,Rate,2019,783.8237460321594,1003.5859994115785,593.0618843632144
+DALYs (Disability-Adjusted Life Years),Bhutan,Both,Age-standardized,Asthma,Rate,1990,839.547866486058,1398.0874123061935,514.8055332569284
+DALYs (Disability-Adjusted Life Years),Azerbaijan,Both,Age-standardized,Asthma,Rate,1990,285.3345093031793,352.0826720261102,231.5614529199008
+DALYs (Disability-Adjusted Life Years),Namibia,Both,Age-standardized,Asthma,Rate,1990,900.622889444131,1274.985199159983,659.0081063250468
+DALYs (Disability-Adjusted Life Years),Barbados,Both,Age-standardized,Asthma,Rate,1990,378.7301714034329,505.6855232908173,282.91444657295676
+DALYs (Disability-Adjusted Life Years),Austria,Both,Age-standardized,Asthma,Rate,2019,212.86245431860004,318.202510313239,138.32552245153408
+DALYs (Disability-Adjusted Life Years),Bermuda,Both,Age-standardized,Asthma,Rate,2019,254.93677027292722,380.9827572488658,165.99077274692274
+DALYs (Disability-Adjusted Life Years),Botswana,Both,Age-standardized,Asthma,Rate,2019,479.46637569639734,639.2632971337176,335.39420487055753
+DALYs (Disability-Adjusted Life Years),Israel,Both,Age-standardized,Asthma,Rate,2019,216.40587634620078,314.46528544392964,146.36333882291697
+DALYs (Disability-Adjusted Life Years),Chile,Both,Age-standardized,Asthma,Rate,1990,265.9773686789138,364.4359781188853,193.14665259544927
+DALYs (Disability-Adjusted Life Years),Palau,Both,Age-standardized,Asthma,Rate,2019,375.76231166308014,462.9355700674661,300.0582086445369
+DALYs (Disability-Adjusted Life Years),Serbia,Both,Age-standardized,Asthma,Rate,2019,149.1804067826745,206.2313121557766,107.3456704170854
+DALYs (Disability-Adjusted Life Years),Saint Lucia,Both,Age-standardized,Asthma,Rate,2019,391.1382569231529,523.3941729024828,288.63216762189563
+DALYs (Disability-Adjusted Life Years),Barbados,Both,Age-standardized,Asthma,Rate,2019,345.00791216201924,482.98363952368527,240.35217872096547
+DALYs (Disability-Adjusted Life Years),Palau,Both,Age-standardized,Asthma,Rate,1990,613.0197604572496,763.7760605529054,487.2389864264896
+DALYs (Disability-Adjusted Life Years),Palestine,Both,Age-standardized,Asthma,Rate,2019,227.21845208909576,296.4160955794148,175.58657078711664
+DALYs (Disability-Adjusted Life Years),Afghanistan,Both,Age-standardized,Asthma,Rate,2019,729.2619008011578,970.0604146076682,523.1466996879201
+DALYs (Disability-Adjusted Life Years),Sao Tome and Principe,Both,Age-standardized,Asthma,Rate,1990,1130.8491195434506,1362.8076626124623,908.5001466649327
+DALYs (Disability-Adjusted Life Years),Côte d'Ivoire,Both,Age-standardized,Asthma,Rate,1990,792.7831517261537,964.8233144859488,620.7620133125647
+DALYs (Disability-Adjusted Life Years),Congo,Both,Age-standardized,Asthma,Rate,2019,457.92453651471635,597.6016281566242,333.9926983443664
+DALYs (Disability-Adjusted Life Years),Northern Mariana Islands,Both,Age-standardized,Asthma,Rate,2019,254.48775591654024,335.9719824526876,192.34338510670008
+DALYs (Disability-Adjusted Life Years),Luxembourg,Both,Age-standardized,Asthma,Rate,1990,464.2395887597806,649.333142261766,332.45980240692205
+DALYs (Disability-Adjusted Life Years),Bahamas,Both,Age-standardized,Asthma,Rate,2019,287.6505462640137,409.1688021786128,202.92582737160498
+DALYs (Disability-Adjusted Life Years),Malawi,Both,Age-standardized,Asthma,Rate,2019,410.96211988597844,522.122605138719,317.0067532443044
+DALYs (Disability-Adjusted Life Years),Belize,Both,Age-standardized,Asthma,Rate,1990,361.5210647937228,480.10078520865346,274.48092230461924
+DALYs (Disability-Adjusted Life Years),El Salvador,Both,Age-standardized,Asthma,Rate,2019,268.2009172820949,376.9200016407422,188.00215622420845
+DALYs (Disability-Adjusted Life Years),South Sudan,Both,Age-standardized,Asthma,Rate,2019,465.9535154133109,659.6531111729613,343.36650630052145
+DALYs (Disability-Adjusted Life Years),Lesotho,Both,Age-standardized,Asthma,Rate,2019,792.642569431107,1135.1548478739103,527.0297675874418
+DALYs (Disability-Adjusted Life Years),Puerto Rico,Both,Age-standardized,Asthma,Rate,1990,557.5125374162963,766.5365060580601,400.3649704629992
+DALYs (Disability-Adjusted Life Years),Indonesia,Both,Age-standardized,Asthma,Rate,2019,455.615656376349,549.4749020567879,372.91914325994185
+DALYs (Disability-Adjusted Life Years),Slovakia,Both,Age-standardized,Asthma,Rate,2019,127.09205312039268,186.66971805656866,83.98747041698881
+DALYs (Disability-Adjusted Life Years),Italy,Both,Age-standardized,Asthma,Rate,2019,163.70507883038255,245.59106061151533,103.94096751052345
+DALYs (Disability-Adjusted Life Years),Sao Tome and Principe,Both,Age-standardized,Asthma,Rate,2019,723.6677501103529,907.3610279877942,550.1530254752839
+DALYs (Disability-Adjusted Life Years),Democratic Republic of the Congo,Both,Age-standardized,Asthma,Rate,2019,605.2932594834158,1036.183658726713,386.94419442908094
+DALYs (Disability-Adjusted Life Years),Bangladesh,Both,Age-standardized,Asthma,Rate,2019,243.40100935767947,362.59921619243676,181.94160221332328
+DALYs (Disability-Adjusted Life Years),Senegal,Both,Age-standardized,Asthma,Rate,1990,767.9678197217287,940.0618126562954,589.615637799072
+DALYs (Disability-Adjusted Life Years),Chad,Both,Age-standardized,Asthma,Rate,2019,563.0173702661525,719.981705860909,436.18464681564257
+DALYs (Disability-Adjusted Life Years),Malta,Both,Age-standardized,Asthma,Rate,1990,399.6113958265591,564.164838586821,276.77203966459416
+DALYs (Disability-Adjusted Life Years),Gambia,Both,Age-standardized,Asthma,Rate,1990,729.5993663399837,944.7061862706568,547.5770401096767
+DALYs (Disability-Adjusted Life Years),Saint Vincent and the Grenadines,Both,Age-standardized,Asthma,Rate,2019,311.5583755547945,427.6860779044845,224.16094164092286
+DALYs (Disability-Adjusted Life Years),Albania,Both,Age-standardized,Asthma,Rate,2019,165.87646338430184,222.7805062222582,120.9647375608542
+DALYs (Disability-Adjusted Life Years),Guatemala,Both,Age-standardized,Asthma,Rate,2019,184.36305865741872,249.59735206986352,136.18138334182433
+DALYs (Disability-Adjusted Life Years),Belgium,Both,Age-standardized,Asthma,Rate,1990,364.9202651994165,501.47481366497624,265.70212626420465
+DALYs (Disability-Adjusted Life Years),Cuba,Both,Age-standardized,Asthma,Rate,1990,392.594966327697,550.0625912467336,279.2238701743164
+DALYs (Disability-Adjusted Life Years),Saint Kitts and Nevis,Both,Age-standardized,Asthma,Rate,1990,380.9197774668688,503.4504347382736,288.2330296397875
+DALYs (Disability-Adjusted Life Years),Algeria,Both,Age-standardized,Asthma,Rate,2019,275.5766782975953,354.1916288316357,213.56255444706758
+DALYs (Disability-Adjusted Life Years),Sierra Leone,Both,Age-standardized,Asthma,Rate,1990,796.924893864363,986.2168313464332,596.6447794794026
+DALYs (Disability-Adjusted Life Years),Honduras,Both,Age-standardized,Asthma,Rate,2019,306.8030157786896,402.594400045029,221.33422928309463
+DALYs (Disability-Adjusted Life Years),Armenia,Both,Age-standardized,Asthma,Rate,2019,91.0932140536877,136.0392764607914,59.14631542337754
+DALYs (Disability-Adjusted Life Years),Fiji,Both,Age-standardized,Asthma,Rate,2019,979.8654833555977,1226.8241191259774,780.2440134144999
+DALYs (Disability-Adjusted Life Years),Oman,Both,Age-standardized,Asthma,Rate,2019,169.94348698588942,252.49164034633725,110.29496754702654
+Deaths,Greece,Both,Age-standardized,Asthma,Rate,1990,1.236952095756171,1.3938593250662235,1.1009583035367905
+Deaths,Lesotho,Both,Age-standardized,Asthma,Rate,1990,36.08857134459144,58.35842244197975,22.515030311390646
+Deaths,Mexico,Both,Age-standardized,Asthma,Rate,1990,7.363293538574273,7.838193763420072,6.360091596731364
+Deaths,Bermuda,Both,Age-standardized,Asthma,Rate,1990,3.2980130812257085,4.042643937461435,2.513780873607627
+Deaths,Haiti,Both,Age-standardized,Asthma,Rate,1990,26.2895613047497,47.014957701182006,15.46008593738018
+Deaths,Lebanon,Both,Age-standardized,Asthma,Rate,1990,15.244761420391294,21.33804348501792,11.146216853143931
+Deaths,Jamaica,Both,Age-standardized,Asthma,Rate,1990,3.8616700080982937,4.550312885596228,3.3497507353790703
+Deaths,Liberia,Both,Age-standardized,Asthma,Rate,1990,17.84150097879597,22.57195202503694,14.160218059797348
+Deaths,Georgia,Both,Age-standardized,Asthma,Rate,1990,6.651360533276444,7.891579006996263,5.4876936814454425
+Deaths,Iceland,Both,Age-standardized,Asthma,Rate,1990,2.1975253246485313,2.526070514005319,1.9374935179451505
+Deaths,Japan,Both,Age-standardized,Asthma,Rate,1990,4.042675811631346,4.319180807874159,3.5934757088306006
+Deaths,Bhutan,Both,Age-standardized,Asthma,Rate,1990,34.269767467334965,64.25754128542366,19.546896217247003
+Deaths,Libya,Both,Age-standardized,Asthma,Rate,1990,14.396412221483496,21.018724004208707,9.772662127951438
+Deaths,Poland,Both,Age-standardized,Asthma,Rate,1990,7.054810419211637,7.443676213907478,6.542527755086365
+Deaths,India,Both,Age-standardized,Asthma,Rate,1990,41.9814744561818,67.49889763835407,23.903598992154752
+Deaths,Denmark,Both,Age-standardized,Asthma,Rate,2019,0.6258673876236429,0.734462578447069,0.5153613094136599
+Deaths,Ethiopia,Both,Age-standardized,Asthma,Rate,1990,22.711320602845426,31.916064317421085,15.510324966281296
+Deaths,Kyrgyzstan,Both,Age-standardized,Asthma,Rate,1990,5.133838839858433,6.29650710317956,3.985764185745049
+Deaths,Nicaragua,Both,Age-standardized,Asthma,Rate,1990,7.091592031286616,8.336644272930117,5.941366744553452
+Deaths,United States Virgin Islands,Both,Age-standardized,Asthma,Rate,1990,4.444399969145433,5.312677059481377,3.6667657506547453
+Deaths,Bangladesh,Both,Age-standardized,Asthma,Rate,1990,32.575072625219825,49.85814557326057,22.275981508943676
+Deaths,Uruguay,Both,Age-standardized,Asthma,Rate,1990,5.971655012572003,6.994345198155447,5.138518886848873
+Deaths,South Africa,Both,Age-standardized,Asthma,Rate,1990,20.750195574392112,26.032049557115826,17.616424572660474
+Deaths,Cook Islands,Both,Age-standardized,Asthma,Rate,1990,15.64838840153268,19.989116881228625,11.640260668961195
+Deaths,Kazakhstan,Both,Age-standardized,Asthma,Rate,1990,11.440805765309655,15.072211401278,8.657202250871096
+Deaths,Gabon,Both,Age-standardized,Asthma,Rate,2019,9.553938410308119,12.862148830908898,6.8806289936838745
+Deaths,Uganda,Both,Age-standardized,Asthma,Rate,2019,11.681558836371767,18.76423108619123,8.029091683470124
+Deaths,Mali,Both,Age-standardized,Asthma,Rate,1990,33.91779141464975,42.63334330660385,23.447027645737922
+Deaths,Gambia,Both,Age-standardized,Asthma,Rate,2019,16.47932192014096,22.243207143926387,12.057824417668426
+Deaths,Switzerland,Both,Age-standardized,Asthma,Rate,2019,0.5411729612894338,0.6385594003224475,0.4341496772023011
+Deaths,El Salvador,Both,Age-standardized,Asthma,Rate,2019,2.7464835970310717,3.635997650696786,1.9499787905697854
+Deaths,Timor-Leste,Both,Age-standardized,Asthma,Rate,1990,36.8285672988976,53.61403598870571,25.080749336110948
+Deaths,Chile,Both,Age-standardized,Asthma,Rate,1990,2.8564038431843852,3.1773059826138215,2.367669967680181
+Deaths,Eritrea,Both,Age-standardized,Asthma,Rate,1990,28.31034751803071,41.656232221606764,18.10758124833125
+Deaths,Morocco,Both,Age-standardized,Asthma,Rate,1990,21.05326090390319,33.02598131448679,14.890860590139448
+Deaths,Costa Rica,Both,Age-standardized,Asthma,Rate,2019,0.9857000431081685,1.2980390741819714,0.7241828814705781
+Deaths,Djibouti,Both,Age-standardized,Asthma,Rate,1990,17.08737630308325,23.425868361096256,11.050717039844917
+Deaths,Viet Nam,Both,Age-standardized,Asthma,Rate,1990,20.5585000059141,30.198225212773668,7.0889377116633705
+Deaths,Ireland,Both,Age-standardized,Asthma,Rate,1990,3.461294768120208,3.948180845542472,3.0197182535416274
+Deaths,Dominica,Both,Age-standardized,Asthma,Rate,2019,5.054809569949781,6.490707328362176,3.80240491586611
+Deaths,Zambia,Both,Age-standardized,Asthma,Rate,2019,10.865780992188796,14.179561606695843,8.121182645686503
+Deaths,Ghana,Both,Age-standardized,Asthma,Rate,2019,13.972084462965693,17.769084275620905,9.323974185381783
+Deaths,China,Both,Age-standardized,Asthma,Rate,1990,6.365502002195825,9.452613650437842,4.690762929993999
+Deaths,Singapore,Both,Age-standardized,Asthma,Rate,1990,5.624729216997803,6.211326387785305,4.594851329244436
+Deaths,Romania,Both,Age-standardized,Asthma,Rate,1990,4.407037421284808,5.552708289342667,2.91042570142338
+Deaths,Eswatini,Both,Age-standardized,Asthma,Rate,1990,34.57549737844725,48.53246487296517,24.596180462723968
+Deaths,Oman,Both,Age-standardized,Asthma,Rate,1990,1.8657477112709249,3.0865330553327057,1.2400811457241878
+Deaths,Guam,Both,Age-standardized,Asthma,Rate,1990,9.865369345311429,11.885162639276702,7.786087402269375
+Deaths,Suriname,Both,Age-standardized,Asthma,Rate,1990,4.6839388791912855,5.418234261558002,4.016195657758551
+Deaths,Italy,Both,Age-standardized,Asthma,Rate,1990,2.2631481116236047,2.4593247687384445,2.0640290417783014
+Deaths,Serbia,Both,Age-standardized,Asthma,Rate,1990,6.040567726949408,7.790154769631389,4.6648553673559405
+Deaths,Saint Kitts and Nevis,Both,Age-standardized,Asthma,Rate,2019,1.935027784750256,2.4313481092102394,1.5126929006471923
+Deaths,Venezuela (Bolivarian Republic of),Both,Age-standardized,Asthma,Rate,1990,3.268654842924719,3.768024804797203,2.8075459639827067
+Deaths,Guatemala,Both,Age-standardized,Asthma,Rate,2019,2.971066034123932,3.947572392430717,2.266725441711407
+Deaths,Fiji,Both,Age-standardized,Asthma,Rate,1990,95.03236251606393,119.09686594099972,76.37956147543694
+Deaths,Taiwan (Province of China),Both,Age-standardized,Asthma,Rate,1990,14.500062214735122,15.839157577211667,12.570738324152787
+Deaths,Myanmar,Both,Age-standardized,Asthma,Rate,2019,27.804547466361278,34.39842836889105,19.505735595431496
+Deaths,Mauritania,Both,Age-standardized,Asthma,Rate,1990,24.750203084680045,31.446682564769432,17.037871126537947
+Deaths,Greenland,Both,Age-standardized,Asthma,Rate,1990,6.64877469212024,8.751098012006654,5.3199033330362
+Deaths,Philippines,Both,Age-standardized,Asthma,Rate,2019,16.360074856299445,21.177411359198572,13.538233687685556
+Deaths,Iraq,Both,Age-standardized,Asthma,Rate,2019,5.706166383963098,7.316584798929698,4.498547918851691
+Deaths,Namibia,Both,Age-standardized,Asthma,Rate,1990,35.192383526037894,51.784882606047134,24.909489888608345
+Deaths,Mongolia,Both,Age-standardized,Asthma,Rate,1990,16.779263000407948,22.23604203269764,12.424209506876723
+Deaths,Saint Vincent and the Grenadines,Both,Age-standardized,Asthma,Rate,1990,4.7051536320345235,5.4826846213261495,4.0230460047318095
+Deaths,Republic of Korea,Both,Age-standardized,Asthma,Rate,1990,35.60443877868151,42.09316996141088,20.8105630124207
+Deaths,San Marino,Both,Age-standardized,Asthma,Rate,2019,0.5750186477098452,0.8548355686748398,0.368192402835204
+Deaths,Finland,Both,Age-standardized,Asthma,Rate,2019,0.7781768614617134,0.9361495833118757,0.6178067180107811
+Deaths,Saint Lucia,Both,Age-standardized,Asthma,Rate,1990,8.790898882091563,10.056218648693424,7.64882118173565
+Deaths,Czechia,Both,Age-standardized,Asthma,Rate,2019,0.5856490776373646,0.7338787783934658,0.44927693583907014
+Deaths,Iran (Islamic Republic of),Both,Age-standardized,Asthma,Rate,2019,5.609569841054525,6.247352205328917,4.766184737341568
+Deaths,Israel,Both,Age-standardized,Asthma,Rate,1990,4.433956180258398,5.12091338702606,3.8238115839197273
+Deaths,American Samoa,Both,Age-standardized,Asthma,Rate,2019,11.004905579351739,13.947874719586363,8.64243770741453
+Deaths,Democratic People's Republic of Korea,Both,Age-standardized,Asthma,Rate,1990,10.244572823500699,15.414468156278781,6.581702648136861
+Deaths,United Kingdom,Both,Age-standardized,Asthma,Rate,2019,1.2220527830979735,1.3638519141142076,1.0635950988290157
+Deaths,Dominican Republic,Both,Age-standardized,Asthma,Rate,2019,5.168596947504696,6.835605718361942,3.752641130412809
+Deaths,United States of America,Both,Age-standardized,Asthma,Rate,1990,1.6572566375170341,1.897195904920147,1.5361046085064887
+Deaths,Turkmenistan,Both,Age-standardized,Asthma,Rate,1990,10.637111220062456,13.727695610179131,7.561068771893421
+Deaths,Guinea,Both,Age-standardized,Asthma,Rate,2019,19.904848987372553,26.128844450096093,14.758326092763758
+Deaths,South Sudan,Both,Age-standardized,Asthma,Rate,1990,20.41439970852881,28.53116221582351,12.526323531764026
+Deaths,Afghanistan,Both,Age-standardized,Asthma,Rate,2019,25.782908881193816,36.63673704960726,15.926486070214954
+Deaths,Pakistan,Both,Age-standardized,Asthma,Rate,1990,28.0901856011041,47.46262690951952,18.23878938429158
+Deaths,Panama,Both,Age-standardized,Asthma,Rate,1990,3.5746042704141785,4.113138588662354,3.0484970839776464
+Deaths,Germany,Both,Age-standardized,Asthma,Rate,2019,0.6446054237013654,0.7547388264630495,0.5528801283118965
+Deaths,Comoros,Both,Age-standardized,Asthma,Rate,2019,10.63896980574521,15.190760634222004,7.768728153308253
+Deaths,Tokelau,Both,Age-standardized,Asthma,Rate,2019,14.228549689301376,18.750228742973032,10.292074614822534
+Deaths,Honduras,Both,Age-standardized,Asthma,Rate,2019,6.187718500437401,8.71475299609444,4.003906965082325
+Deaths,Marshall Islands,Both,Age-standardized,Asthma,Rate,1990,47.21742842680639,71.34549613632241,34.45054821722689
+Deaths,Hungary,Both,Age-standardized,Asthma,Rate,2019,0.5804485657653928,0.7196250485981815,0.4563929121820617
+Deaths,Grenada,Both,Age-standardized,Asthma,Rate,2019,2.0342579110167036,2.400618702607531,1.652518788984421
+Deaths,Argentina,Both,Age-standardized,Asthma,Rate,2019,0.9227826433661902,1.0692639942579252,0.770425774551916
+Deaths,Nigeria,Both,Age-standardized,Asthma,Rate,1990,18.60330657017228,24.211133310764513,13.945690660588495
+Deaths,Botswana,Both,Age-standardized,Asthma,Rate,2019,16.000353324964276,22.75661254634288,9.948957712944472
+Deaths,Palestine,Both,Age-standardized,Asthma,Rate,1990,13.093254446241216,17.51998571810415,9.351654632822493
+Deaths,Bangladesh,Both,Age-standardized,Asthma,Rate,2019,8.832205155580677,14.546384817245965,6.163316250495004
+Deaths,Monaco,Both,Age-standardized,Asthma,Rate,1990,0.8303918984419436,1.0618811768073493,0.6290775425189116
+Deaths,Canada,Both,Age-standardized,Asthma,Rate,1990,1.634399565449779,1.799619761667711,1.4676734107579865
+Deaths,Tajikistan,Both,Age-standardized,Asthma,Rate,1990,14.149291950435003,20.87105183113659,9.376342086783268
+Deaths,Netherlands,Both,Age-standardized,Asthma,Rate,1990,1.2132936400649008,1.3403103235086227,1.089839830819863
+Deaths,Sudan,Both,Age-standardized,Asthma,Rate,2019,14.72410901543449,23.46268752224912,8.969254379768481
+Deaths,Sao Tome and Principe,Both,Age-standardized,Asthma,Rate,1990,41.057513171617444,49.68052232892056,32.34540238672269
+Deaths,Liberia,Both,Age-standardized,Asthma,Rate,2019,10.075713241684204,14.078353159221974,7.139917981126427
+Deaths,Armenia,Both,Age-standardized,Asthma,Rate,2019,0.44725172130876667,0.5696798958883953,0.34617333700531705
+Deaths,Niger,Both,Age-standardized,Asthma,Rate,1990,34.07608045110811,46.7271127414718,24.10290074557609
+Deaths,France,Both,Age-standardized,Asthma,Rate,2019,0.734772270932402,0.9507780306646004,0.6043750191136728
+Deaths,Guyana,Both,Age-standardized,Asthma,Rate,2019,4.546533697607643,5.942848385129246,3.433195602545795
+Deaths,Mexico,Both,Age-standardized,Asthma,Rate,2019,1.5210865778440443,1.7709878425804297,1.2279290666809686
+Deaths,Sri Lanka,Both,Age-standardized,Asthma,Rate,2019,40.30980503590647,51.840481186223585,27.899380868417122
+Deaths,Azerbaijan,Both,Age-standardized,Asthma,Rate,2019,5.33548626538849,8.503777888612065,3.5672661270873527
+Deaths,Syrian Arab Republic,Both,Age-standardized,Asthma,Rate,1990,22.364016770604255,29.656080820994394,16.656269237781377
+Deaths,Jordan,Both,Age-standardized,Asthma,Rate,2019,2.609869122685559,3.2813357864887376,2.0922313123734524
+Deaths,Slovakia,Both,Age-standardized,Asthma,Rate,1990,1.7818841345446983,2.398620114657709,1.4970352829492009
+Deaths,Kenya,Both,Age-standardized,Asthma,Rate,1990,13.301866864003726,23.698902080937714,8.542029427759754
+Deaths,Qatar,Both,Age-standardized,Asthma,Rate,1990,4.663691882701271,8.69870341885561,3.0595664499391426
+Deaths,Brazil,Both,Age-standardized,Asthma,Rate,1990,3.476837376709054,3.827067848616349,3.037381368946813
+Deaths,Haiti,Both,Age-standardized,Asthma,Rate,2019,13.075964910914758,22.306532009330482,7.572968502866577
+Deaths,Nepal,Both,Age-standardized,Asthma,Rate,1990,63.25820469433064,101.19163652470239,35.89164973992813
+Deaths,Indonesia,Both,Age-standardized,Asthma,Rate,1990,26.577538307786245,35.81212762266008,21.156647193138177
+Deaths,Timor-Leste,Both,Age-standardized,Asthma,Rate,2019,19.751913279117357,27.94939675026124,13.466951914471553
+Deaths,Bermuda,Both,Age-standardized,Asthma,Rate,2019,0.8762950951532255,1.0959069493460958,0.6986990477775464
+Deaths,Lesotho,Both,Age-standardized,Asthma,Rate,2019,29.845189114872625,46.075839583882754,19.61261023055912
+Deaths,Ukraine,Both,Age-standardized,Asthma,Rate,2019,0.4071827580604226,0.7418463421312805,0.3098678229570798
+Deaths,Cook Islands,Both,Age-standardized,Asthma,Rate,2019,6.022015147931005,8.354820343792301,4.105968245452897
+Deaths,Antigua and Barbuda,Both,Age-standardized,Asthma,Rate,1990,2.904673099416067,3.3665798542020124,2.517281849580281
+Deaths,Burundi,Both,Age-standardized,Asthma,Rate,2019,16.283098593360727,28.777970610169486,10.439839582627148
+Deaths,Luxembourg,Both,Age-standardized,Asthma,Rate,1990,4.3465691675246125,4.870943179325766,3.842979118411486
+Deaths,Guinea-Bissau,Both,Age-standardized,Asthma,Rate,2019,22.438000608614637,28.95260612679513,16.739576722805722
+Deaths,Chile,Both,Age-standardized,Asthma,Rate,2019,1.1463191042575598,1.4067710683615628,0.8945975145025377
+Deaths,Benin,Both,Age-standardized,Asthma,Rate,1990,29.092736683583485,37.15684181091412,22.145446452437433
+Deaths,Bhutan,Both,Age-standardized,Asthma,Rate,2019,15.232961380069426,22.805686780326226,10.733306407944118
+Deaths,Namibia,Both,Age-standardized,Asthma,Rate,2019,15.941300083692088,21.260447865633346,11.857032189737257
+Deaths,Tuvalu,Both,Age-standardized,Asthma,Rate,2019,21.366834341921376,28.490404456831392,15.232055280095587
+Deaths,Malta,Both,Age-standardized,Asthma,Rate,1990,2.323900175739671,2.6675713717910816,2.036765487714854
+Deaths,Kuwait,Both,Age-standardized,Asthma,Rate,2019,1.4570326251634447,1.854120216142605,1.135294978758168
+Deaths,Georgia,Both,Age-standardized,Asthma,Rate,2019,1.937888016890816,2.5385058037170865,1.5419908822010544
+Deaths,Uruguay,Both,Age-standardized,Asthma,Rate,2019,2.2021864622339833,2.554642957877914,1.8295413933528994
+Deaths,China,Both,Age-standardized,Asthma,Rate,2019,1.5053046935596763,1.8648156878263786,1.2256926852340093
+Deaths,United States Virgin Islands,Both,Age-standardized,Asthma,Rate,2019,2.5390444161941583,3.106461232375459,1.9885384032878926
+Deaths,Malawi,Both,Age-standardized,Asthma,Rate,1990,17.327335414635584,22.624419398127817,12.307999333884345
+Deaths,Slovenia,Both,Age-standardized,Asthma,Rate,1990,2.180689694181002,2.8177855539096885,1.7139886434668734
+Deaths,Australia,Both,Age-standardized,Asthma,Rate,1990,4.315222518531506,4.653637824246979,3.830166124226719
+Deaths,Central African Republic,Both,Age-standardized,Asthma,Rate,1990,43.94118803590778,77.66978911981738,26.098149793837713
+Deaths,New Zealand,Both,Age-standardized,Asthma,Rate,1990,4.404882446562807,4.825607316007561,3.9789847765554827
+Deaths,South Africa,Both,Age-standardized,Asthma,Rate,2019,11.60599714680354,13.163720836138308,10.373220186746464
+Deaths,Zimbabwe,Both,Age-standardized,Asthma,Rate,1990,24.967427120587917,30.856767970753015,20.57005422810204
+Deaths,Belgium,Both,Age-standardized,Asthma,Rate,1990,3.1234996127956935,3.449085653009682,2.819755266813533
+Deaths,Bolivia (Plurinational State of),Both,Age-standardized,Asthma,Rate,1990,8.485904095362924,11.412685622159637,5.653191761908745
+Deaths,Angola,Both,Age-standardized,Asthma,Rate,1990,32.12133115419972,54.91059437391268,20.812891188760464
+Deaths,Djibouti,Both,Age-standardized,Asthma,Rate,2019,8.88869835544798,12.309641654342308,4.7570731019632975
+Deaths,Senegal,Both,Age-standardized,Asthma,Rate,1990,27.493155563697677,35.0020565624148,20.284310896649778
+Deaths,Norway,Both,Age-standardized,Asthma,Rate,1990,4.9465969802318925,5.6283667866886695,4.561427751822669
+Deaths,Mali,Both,Age-standardized,Asthma,Rate,2019,20.150542688531065,26.85665998524559,14.014499649971627
+Deaths,Nepal,Both,Age-standardized,Asthma,Rate,2019,36.399161792858415,52.151492215181406,22.44520823863499
+Deaths,Ireland,Both,Age-standardized,Asthma,Rate,2019,0.704699892876213,0.8607165316530192,0.5842661120381804
+Deaths,Kiribati,Both,Age-standardized,Asthma,Rate,1990,105.34116506085742,140.79462615139516,84.794400991332
+Deaths,Montenegro,Both,Age-standardized,Asthma,Rate,2019,0.3360044280390174,0.43693751067618963,0.2495398530572501
+Deaths,Madagascar,Both,Age-standardized,Asthma,Rate,1990,27.99196552997711,37.19549661053071,21.821495342501866
+Deaths,Japan,Both,Age-standardized,Asthma,Rate,2019,0.4640703124498964,0.620913649234023,0.35995182312052365
+Deaths,Jamaica,Both,Age-standardized,Asthma,Rate,2019,2.540024493549049,3.317389076668489,1.9226516730972185
+Deaths,Niger,Both,Age-standardized,Asthma,Rate,2019,19.47042115055521,28.300601608728584,13.415341801625209
+Deaths,Iceland,Both,Age-standardized,Asthma,Rate,2019,0.5005034468792607,0.5903477142616681,0.3925691934955276
+Deaths,Romania,Both,Age-standardized,Asthma,Rate,2019,0.6497480890233946,0.8399283304711397,0.5083317743521594
+Deaths,Samoa,Both,Age-standardized,Asthma,Rate,1990,39.02103381069518,57.6508925992963,28.377789897294587
+Deaths,Sierra Leone,Both,Age-standardized,Asthma,Rate,1990,27.314071706449297,35.22550575571954,19.579451727043566
+Deaths,Kyrgyzstan,Both,Age-standardized,Asthma,Rate,2019,1.3235686914088,1.8548477050699388,1.0766098616458477
+Deaths,Ethiopia,Both,Age-standardized,Asthma,Rate,2019,8.537275948847602,14.609426650898994,6.213765995818114
+Deaths,Seychelles,Both,Age-standardized,Asthma,Rate,1990,12.995770641748338,16.77329325870875,10.202822420442022
+Deaths,North Macedonia,Both,Age-standardized,Asthma,Rate,2019,2.16246161903146,2.7528750955341392,1.6432421408340532
+Deaths,Uzbekistan,Both,Age-standardized,Asthma,Rate,1990,12.568419336334957,16.04018335175459,8.26580799989375
+Deaths,Viet Nam,Both,Age-standardized,Asthma,Rate,2019,8.67581396422584,11.869888682852858,3.545864423990124
+Deaths,Micronesia (Federated States of),Both,Age-standardized,Asthma,Rate,1990,53.46974517212657,80.20382106349888,38.584577005218634
+Deaths,Thailand,Both,Age-standardized,Asthma,Rate,2019,4.4060563382555955,5.828754243155266,3.2116729921689404
+Deaths,Mauritania,Both,Age-standardized,Asthma,Rate,2019,8.928516420652173,11.963337408061156,6.402615027126726
+Deaths,Trinidad and Tobago,Both,Age-standardized,Asthma,Rate,1990,8.638290214454697,9.602972649635506,7.7883594256735105
+Deaths,Belarus,Both,Age-standardized,Asthma,Rate,1990,7.1762485142077335,9.140246334522724,5.5941849447545975
+Deaths,Saint Lucia,Both,Age-standardized,Asthma,Rate,2019,4.1513315951274485,5.135411823961682,3.2081581064125038
+Deaths,Northern Mariana Islands,Both,Age-standardized,Asthma,Rate,1990,13.729687148153776,17.02662662313176,10.914728336051235
+Deaths,Republic of Korea,Both,Age-standardized,Asthma,Rate,2019,3.477021405402,4.312837505683924,2.5587696672106355
+Deaths,Bahamas,Both,Age-standardized,Asthma,Rate,1990,3.6762938942165695,4.309016558048982,3.1377899902767354
+Deaths,Saint Vincent and the Grenadines,Both,Age-standardized,Asthma,Rate,2019,3.0203502403579097,3.6481241852088675,2.4203810848535454
+Deaths,Brunei Darussalam,Both,Age-standardized,Asthma,Rate,2019,10.94178426752024,13.462128158979155,8.631624670611208
+Deaths,Libya,Both,Age-standardized,Asthma,Rate,2019,7.6659319323787045,10.395104436535213,5.332046222135166
+Deaths,Lebanon,Both,Age-standardized,Asthma,Rate,2019,5.452869548172597,7.372445742982541,3.4730954872490094
+Deaths,Eritrea,Both,Age-standardized,Asthma,Rate,2019,15.183769752929715,21.64256018174891,9.859385487239285
+Deaths,Poland,Both,Age-standardized,Asthma,Rate,2019,0.7290926965660666,0.9635776325490033,0.5974750220693531
+Deaths,Venezuela (Bolivarian Republic of),Both,Age-standardized,Asthma,Rate,2019,1.4673930300693308,1.9568025670059628,1.07952916057672
+Deaths,Cabo Verde,Both,Age-standardized,Asthma,Rate,1990,17.641271330758798,21.769812351049662,10.44923805496724
+Deaths,Saudi Arabia,Both,Age-standardized,Asthma,Rate,1990,15.943207959156561,23.979147389472626,11.162403208875787
+Deaths,Lao People's Democratic Republic,Both,Age-standardized,Asthma,Rate,1990,53.40167132733136,71.76261750220219,38.29134450392515
+Deaths,Togo,Both,Age-standardized,Asthma,Rate,1990,28.28017860545116,35.720346866661785,21.290443951682786
+Deaths,Panama,Both,Age-standardized,Asthma,Rate,2019,1.4462223346829766,1.874085097465871,1.0646498206832724
+Deaths,Rwanda,Both,Age-standardized,Asthma,Rate,1990,32.55661696717069,46.74703540432324,21.51915687636191
+Deaths,Nauru,Both,Age-standardized,Asthma,Rate,1990,36.88673708718266,46.31900210520206,27.70388606327876
+Deaths,Spain,Both,Age-standardized,Asthma,Rate,1990,2.2714992676895887,2.5119809171185707,2.029054254774267
+Deaths,Paraguay,Both,Age-standardized,Asthma,Rate,1990,2.4114564590889795,2.9718464730672958,2.005620948189275
+Deaths,Niue,Both,Age-standardized,Asthma,Rate,1990,23.890144123169392,30.46649679205011,16.673628431604392
+Deaths,Nicaragua,Both,Age-standardized,Asthma,Rate,2019,2.58501731111673,3.5032152415311715,1.9765580574719646
+Deaths,Cambodia,Both,Age-standardized,Asthma,Rate,1990,26.21594537699425,34.26238385217675,18.465225191293616
+Deaths,Kazakhstan,Both,Age-standardized,Asthma,Rate,2019,8.439831288420367,10.859286433128954,6.199795258081446
+Deaths,Eswatini,Both,Age-standardized,Asthma,Rate,2019,20.01697327046446,26.487155574342673,14.776559490477617
+Deaths,Bahrain,Both,Age-standardized,Asthma,Rate,1990,14.957270595602692,19.21966894087102,12.207241219497261
+Deaths,Austria,Both,Age-standardized,Asthma,Rate,1990,3.38825581316632,3.771071060948363,3.071708842080058
+Deaths,Barbados,Both,Age-standardized,Asthma,Rate,1990,4.36242331591936,5.015605798936006,3.6956688839978207
+Deaths,Greece,Both,Age-standardized,Asthma,Rate,2019,0.2605662648765968,0.3078621415773623,0.20991855257267197
+Deaths,Portugal,Both,Age-standardized,Asthma,Rate,1990,3.976424039166775,4.402937079765313,3.50855829121968
+Deaths,Albania,Both,Age-standardized,Asthma,Rate,1990,11.723652024626302,14.841367323532824,8.975161529110904
+Deaths,India,Both,Age-standardized,Asthma,Rate,2019,20.05073630939968,28.191719056353193,12.900671566072413
+Deaths,Mauritius,Both,Age-standardized,Asthma,Rate,1990,38.425081532349,42.18513921530072,32.575246844928905
+Deaths,Greenland,Both,Age-standardized,Asthma,Rate,2019,1.9283864953077792,2.6526161520702813,1.4836519370983259
+Deaths,Canada,Both,Age-standardized,Asthma,Rate,2019,0.45205688622298174,0.5276209151773641,0.36435803930513855
+Deaths,Congo,Both,Age-standardized,Asthma,Rate,1990,32.686439914160005,58.248386219866624,20.967121214704555
+Deaths,Democratic People's Republic of Korea,Both,Age-standardized,Asthma,Rate,2019,5.6885269982166875,8.991311761094352,3.657949186093454
+Deaths,Fiji,Both,Age-standardized,Asthma,Rate,2019,43.33291775326625,54.755667988824655,34.221091416333735
+Deaths,Cameroon,Both,Age-standardized,Asthma,Rate,1990,27.628637846472163,33.80012116360759,21.88871360608692
+Deaths,Tunisia,Both,Age-standardized,Asthma,Rate,1990,14.245970183560473,19.588178972193884,10.838631600254127
+Deaths,Andorra,Both,Age-standardized,Asthma,Rate,1990,1.837788809535387,2.5561405169451157,1.3439446463819902
+Deaths,Equatorial Guinea,Both,Age-standardized,Asthma,Rate,1990,38.01009686703746,72.16595166996294,21.651163574593813
+Deaths,Singapore,Both,Age-standardized,Asthma,Rate,2019,0.6154994825756228,0.9262389042650953,0.5015469623016924
+Deaths,Morocco,Both,Age-standardized,Asthma,Rate,2019,11.764401880353429,15.828304367156209,8.622016562273874
+Deaths,Democratic Republic of the Congo,Both,Age-standardized,Asthma,Rate,1990,30.263013074277897,55.7205127848221,17.09199534715025
+Deaths,Peru,Both,Age-standardized,Asthma,Rate,1990,2.94432292057638,3.6438174555143132,2.2002951757927005
+Deaths,Estonia,Both,Age-standardized,Asthma,Rate,1990,4.024868835272166,4.682872080352809,3.48667906199947
+Deaths,United States of America,Both,Age-standardized,Asthma,Rate,2019,0.869811147188392,0.9220252431855117,0.7362683522076802
+Deaths,Israel,Both,Age-standardized,Asthma,Rate,2019,1.1054528774011894,1.46474879269667,0.9225481776034684
+Deaths,Cyprus,Both,Age-standardized,Asthma,Rate,1990,8.26186139016293,11.328936999521769,5.5798360139834235
+Deaths,Mongolia,Both,Age-standardized,Asthma,Rate,2019,6.310055078197144,9.05188978532489,4.698868275136732
+Deaths,Vanuatu,Both,Age-standardized,Asthma,Rate,1990,47.526367309754356,79.42539279357902,30.15000745956719
+Deaths,Slovakia,Both,Age-standardized,Asthma,Rate,2019,0.5880422402074474,0.7946771406199377,0.44568730729164246
+Deaths,Sao Tome and Principe,Both,Age-standardized,Asthma,Rate,2019,26.1326248618382,34.16405766591061,17.66463657468076
+Deaths,Cuba,Both,Age-standardized,Asthma,Rate,1990,2.4465798707722146,2.7118756952521546,2.0512574771780767
+Deaths,Gabon,Both,Age-standardized,Asthma,Rate,1990,21.21300697069231,31.265577058119458,15.162371431887433
+Deaths,Benin,Both,Age-standardized,Asthma,Rate,2019,14.832588530996158,19.633181978531354,11.281328554878359
+Deaths,Belize,Both,Age-standardized,Asthma,Rate,1990,3.5880192931383235,4.476710744284427,2.917210713978777
+Deaths,Italy,Both,Age-standardized,Asthma,Rate,2019,0.3239761849307058,0.3711113144347426,0.26818370880072195
+Deaths,Serbia,Both,Age-standardized,Asthma,Rate,2019,2.1751602840512954,2.699931996063325,1.6963328577154642
+Deaths,Guam,Both,Age-standardized,Asthma,Rate,2019,4.025372094342257,5.176441520128958,3.097356851255312
+Deaths,Sweden,Both,Age-standardized,Asthma,Rate,1990,2.5634499138768816,3.0044882067612453,2.327325421550801
+Deaths,Solomon Islands,Both,Age-standardized,Asthma,Rate,1990,49.117920364553164,69.36221660579723,34.660373196199075
+Deaths,Latvia,Both,Age-standardized,Asthma,Rate,1990,4.764149634293001,5.540892547080692,4.0630138006377905
+Deaths,Turkey,Both,Age-standardized,Asthma,Rate,1990,9.832886845726486,14.235909878998118,7.3655531766069595
+Deaths,Brazil,Both,Age-standardized,Asthma,Rate,2019,1.272900363023372,1.504030302340482,1.134615200017966
+Deaths,Croatia,Both,Age-standardized,Asthma,Rate,1990,4.476946135747132,4.986914220054713,3.992280127130655
+Deaths,Trinidad and Tobago,Both,Age-standardized,Asthma,Rate,2019,3.247645157316223,4.3951254416027785,2.353320238769318
+Deaths,Burkina Faso,Both,Age-standardized,Asthma,Rate,1990,17.820972806078103,22.299460904979668,13.656470320995965
+Deaths,Algeria,Both,Age-standardized,Asthma,Rate,1990,23.322777412515077,30.936793480191785,17.089630222703526
+Deaths,Ecuador,Both,Age-standardized,Asthma,Rate,1990,4.205535468106615,5.419364468807258,2.8490454362157136
+Deaths,Dominica,Both,Age-standardized,Asthma,Rate,1990,6.336716873397235,7.664001566518043,5.316298050028575
+Deaths,Taiwan (Province of China),Both,Age-standardized,Asthma,Rate,2019,2.061868313497205,2.760498662236464,1.5445708539033993
+Deaths,Palestine,Both,Age-standardized,Asthma,Rate,2019,5.210976664199301,6.333128990570757,3.934989003231013
+Deaths,Suriname,Both,Age-standardized,Asthma,Rate,2019,2.523000143785793,3.122225184921917,1.9831138387144782
+Deaths,Myanmar,Both,Age-standardized,Asthma,Rate,1990,74.11431079888256,98.37517752364828,47.22359745490699
+Deaths,Papua New Guinea,Both,Age-standardized,Asthma,Rate,1990,72.76399671872075,107.8232259932333,51.508822172953685
+Deaths,Bosnia and Herzegovina,Both,Age-standardized,Asthma,Rate,1990,2.7459253498327576,3.8292808041193798,1.8968983834517728
+Deaths,Turkmenistan,Both,Age-standardized,Asthma,Rate,2019,1.3100416376690538,2.5491598713821246,0.8665781107434131
+Deaths,South Sudan,Both,Age-standardized,Asthma,Rate,2019,12.484634326528123,20.839424582271512,7.81718736902093
+Deaths,Mozambique,Both,Age-standardized,Asthma,Rate,1990,16.45488681845675,21.64023769618329,11.702571001750135
+Deaths,Kenya,Both,Age-standardized,Asthma,Rate,2019,10.16565975035499,18.614358866662972,6.68853290986086
+Deaths,Egypt,Both,Age-standardized,Asthma,Rate,1990,28.53575151614336,36.04469670986534,22.472373095201885
+Deaths,Maldives,Both,Age-standardized,Asthma,Rate,1990,23.36831984120802,33.94134303526115,15.557723231517366
+Deaths,Pakistan,Both,Age-standardized,Asthma,Rate,2019,16.391389663514502,22.928682382239668,12.59313694552806
+Deaths,United Republic of Tanzania,Both,Age-standardized,Asthma,Rate,1990,13.41646725778039,17.92879450375867,9.941520720310473
+Deaths,Burundi,Both,Age-standardized,Asthma,Rate,1990,31.08885295972454,44.57807471152956,20.064433832185653
+Deaths,Costa Rica,Both,Age-standardized,Asthma,Rate,1990,2.326211213758371,2.74086175945139,2.007916991088126
+Deaths,Palau,Both,Age-standardized,Asthma,Rate,1990,22.642084089423253,30.22357353266858,17.220286093056572
+Deaths,Luxembourg,Both,Age-standardized,Asthma,Rate,2019,0.981963663586974,1.2133125369980653,0.7843028680741778
+Deaths,Iraq,Both,Age-standardized,Asthma,Rate,1990,14.92978891052745,19.324871804876974,11.562300834522503
+Deaths,Nigeria,Both,Age-standardized,Asthma,Rate,2019,10.724364552491433,13.611261088755832,8.455813906349245
+Deaths,Kiribati,Both,Age-standardized,Asthma,Rate,2019,80.495647133484,104.19463385215279,59.21650185723964
+Deaths,Tajikistan,Both,Age-standardized,Asthma,Rate,2019,9.393016391113894,12.15746308137746,6.742862834949214
+Deaths,Denmark,Both,Age-standardized,Asthma,Rate,1990,2.9408901077450635,3.333394094953911,2.568670408020501
+Deaths,Puerto Rico,Both,Age-standardized,Asthma,Rate,1990,4.59702695345081,5.263229540075053,4.105539080480237
+Deaths,Micronesia (Federated States of),Both,Age-standardized,Asthma,Rate,2019,27.685544678381806,37.69868546866352,20.234197377495924
+Deaths,Zimbabwe,Both,Age-standardized,Asthma,Rate,2019,23.64978925908943,33.151524084697556,15.653602157620282
+Deaths,Saint Kitts and Nevis,Both,Age-standardized,Asthma,Rate,1990,5.038722719704752,5.894291582418022,4.277131550183401
+Deaths,Bulgaria,Both,Age-standardized,Asthma,Rate,1990,2.35940139591657,2.6287540312065087,2.065308447699227
+Deaths,Uganda,Both,Age-standardized,Asthma,Rate,1990,21.293590075867378,33.98800083134075,12.816139747265305
+Deaths,Lithuania,Both,Age-standardized,Asthma,Rate,1990,2.749826446897515,3.2433035965169514,2.2735695558699254
+Deaths,Chad,Both,Age-standardized,Asthma,Rate,1990,31.130180323415885,42.84471330909998,22.1957700654642
+Deaths,Oman,Both,Age-standardized,Asthma,Rate,2019,0.6423432161999987,0.8358487858407471,0.47822956241231046
+Deaths,Lao People's Democratic Republic,Both,Age-standardized,Asthma,Rate,2019,21.10678127085363,29.057042450163934,15.239684855388287
+Deaths,Slovenia,Both,Age-standardized,Asthma,Rate,2019,0.4216409472270028,0.5690884557118288,0.3205689690362361
+Deaths,Dominican Republic,Both,Age-standardized,Asthma,Rate,1990,10.601345368577253,12.131166950573437,8.213125054247266
+Deaths,United Kingdom,Both,Age-standardized,Asthma,Rate,1990,2.667383441381324,3.1581162229514477,2.5093405346694215
+Deaths,Nauru,Both,Age-standardized,Asthma,Rate,2019,21.134716044617022,28.15818123921462,13.055736348166123
+Deaths,Comoros,Both,Age-standardized,Asthma,Rate,1990,20.888298638789635,30.216153018703203,12.057974941227153
+Deaths,Finland,Both,Age-standardized,Asthma,Rate,1990,1.6269688628577788,1.9498102947537703,1.399134467604548
+Deaths,Bahamas,Both,Age-standardized,Asthma,Rate,2019,2.0649110272885842,2.6190292128838126,1.6073186658840595
+Deaths,Afghanistan,Both,Age-standardized,Asthma,Rate,1990,45.35320701876694,67.56287948167665,27.95211086636548
+Deaths,United Arab Emirates,Both,Age-standardized,Asthma,Rate,1990,33.65251571897633,52.870380128546444,22.322603550567955
+Deaths,Republic of Moldova,Both,Age-standardized,Asthma,Rate,1990,3.2075503562409065,3.85809281016331,2.485505719956595
+Deaths,Congo,Both,Age-standardized,Asthma,Rate,2019,14.566648617602684,22.397021994814224,9.843850506788321
+Deaths,Armenia,Both,Age-standardized,Asthma,Rate,1990,2.414756228532884,3.0759179224451723,1.761932896945511
+Deaths,Angola,Both,Age-standardized,Asthma,Rate,2019,14.543157671349421,23.21244326444596,10.25039600976986
+Deaths,Paraguay,Both,Age-standardized,Asthma,Rate,2019,1.667624050479572,2.194269424483121,1.1851195605474665
+Deaths,Côte d'Ivoire,Both,Age-standardized,Asthma,Rate,1990,27.344143397154955,33.808811733944644,20.674990183512037
+Deaths,Cambodia,Both,Age-standardized,Asthma,Rate,2019,13.667548874571224,16.71071685625994,10.423479431321155
+Deaths,North Macedonia,Both,Age-standardized,Asthma,Rate,1990,8.85042706753183,10.989738933866672,6.93918541226105
+Deaths,Russian Federation,Both,Age-standardized,Asthma,Rate,1990,4.908195873377666,5.337197488822147,4.113263225629754
+Deaths,Madagascar,Both,Age-standardized,Asthma,Rate,2019,19.290527808189474,26.643436831472627,13.317719127799066
+Deaths,Botswana,Both,Age-standardized,Asthma,Rate,1990,34.08685172566085,48.044835871248885,23.803214209943135
+Deaths,Burkina Faso,Both,Age-standardized,Asthma,Rate,2019,11.421006761663929,14.707509561733616,8.926177557090101
+Deaths,Iran (Islamic Republic of),Both,Age-standardized,Asthma,Rate,1990,18.51822793692063,24.948310185156163,13.995848469116996
+Deaths,Jordan,Both,Age-standardized,Asthma,Rate,1990,9.281945079315413,11.648853998891314,7.242444243123318
+Deaths,Czechia,Both,Age-standardized,Asthma,Rate,1990,2.023589061720761,2.3214753848860865,1.8510547751376203
+Deaths,Thailand,Both,Age-standardized,Asthma,Rate,1990,15.019032694287963,19.31013444501825,10.501714532058973
+Deaths,Antigua and Barbuda,Both,Age-standardized,Asthma,Rate,2019,1.9527232790375926,2.3927456199842667,1.5251593217811397
+Deaths,Belarus,Both,Age-standardized,Asthma,Rate,2019,0.8023102022728508,1.8241399081725627,0.5046793867727206
+Deaths,Australia,Both,Age-standardized,Asthma,Rate,2019,1.1389121224392953,1.3158900778237783,0.9546374536794111
+Deaths,Bolivia (Plurinational State of),Both,Age-standardized,Asthma,Rate,2019,2.427019513623024,3.203167129074116,1.7688828202609335
+Deaths,Papua New Guinea,Both,Age-standardized,Asthma,Rate,2019,55.80585281818025,80.30614492625809,39.05472574358076
+Deaths,Saudi Arabia,Both,Age-standardized,Asthma,Rate,2019,6.145634315107433,8.032361524504294,4.733307453122439
+Deaths,Ukraine,Both,Age-standardized,Asthma,Rate,1990,1.9651623945864474,2.5262574405655385,1.0864262742550455
+Deaths,Sierra Leone,Both,Age-standardized,Asthma,Rate,2019,15.674185248312032,20.766831226447945,11.556033667408206
+Deaths,El Salvador,Both,Age-standardized,Asthma,Rate,1990,9.860940408935997,12.093862578680403,7.523774628175998
+Deaths,Malawi,Both,Age-standardized,Asthma,Rate,2019,10.798987245000712,15.249784031817384,7.514948327354604
+Deaths,Norway,Both,Age-standardized,Asthma,Rate,2019,0.9224781428461335,1.0368750547929781,0.713564308830806
+Deaths,Gambia,Both,Age-standardized,Asthma,Rate,1990,25.97406104652068,34.23124693864518,18.727028588589754
+Deaths,Guyana,Both,Age-standardized,Asthma,Rate,1990,8.550581511851204,10.138645779217331,7.21324401097559
+Deaths,Malaysia,Both,Age-standardized,Asthma,Rate,1990,16.751964585499586,20.53551789686993,13.503410187412518
+Deaths,Azerbaijan,Both,Age-standardized,Asthma,Rate,1990,9.667759884049728,13.231932040430305,7.433071229483603
+Deaths,Central African Republic,Both,Age-standardized,Asthma,Rate,2019,35.3999749587306,74.15806649110498,19.279607092378242
+Deaths,Malta,Both,Age-standardized,Asthma,Rate,2019,0.53462765343959,0.6594416759642886,0.42561370317624014
+Deaths,Grenada,Both,Age-standardized,Asthma,Rate,1990,4.523610269507572,5.4248677119002995,3.7572427122310055
+Deaths,Democratic Republic of the Congo,Both,Age-standardized,Asthma,Rate,2019,22.480651436715362,48.437671528419514,11.83058754195361
+Deaths,Algeria,Both,Age-standardized,Asthma,Rate,2019,8.53313178285802,10.72732270987849,6.49952439022784
+Deaths,Ecuador,Both,Age-standardized,Asthma,Rate,2019,0.6987103719212293,0.9169031909708818,0.5492541652583494
+Deaths,Togo,Both,Age-standardized,Asthma,Rate,2019,15.309243807911415,20.817405965984356,11.256071871676593
+Deaths,Chad,Both,Age-standardized,Asthma,Rate,2019,19.686578771800047,25.835833866799078,14.944685291474281
+Deaths,Tokelau,Both,Age-standardized,Asthma,Rate,1990,35.61290185698421,47.93727042236109,26.942245068149283
+Deaths,Seychelles,Both,Age-standardized,Asthma,Rate,2019,6.594239132383804,8.947269029826439,4.462426174570314
+Deaths,Tonga,Both,Age-standardized,Asthma,Rate,1990,19.840044839945055,26.81597101440377,15.4083948348592
+Deaths,American Samoa,Both,Age-standardized,Asthma,Rate,1990,21.818217094549674,26.89493513109697,17.743973705477757
+Deaths,Switzerland,Both,Age-standardized,Asthma,Rate,1990,2.6518895083740945,3.0494330271177263,2.225160251615208
+Deaths,Senegal,Both,Age-standardized,Asthma,Rate,2019,14.222010988839353,18.62098593157981,10.970572365725763
+Deaths,Solomon Islands,Both,Age-standardized,Asthma,Rate,2019,36.45504714121358,46.75370082307996,25.234350731071093
+Deaths,Yemen,Both,Age-standardized,Asthma,Rate,1990,38.2858647376071,64.59767855896347,23.337466884743435
+Deaths,New Zealand,Both,Age-standardized,Asthma,Rate,2019,1.1179926592848934,1.2553217394363068,0.9782101896967661
+Deaths,Tuvalu,Both,Age-standardized,Asthma,Rate,1990,52.158031258591386,76.39147490592354,36.08394334599045
+Deaths,Qatar,Both,Age-standardized,Asthma,Rate,2019,1.3616391118694982,1.9418048064941316,1.021650442051558
+Deaths,Estonia,Both,Age-standardized,Asthma,Rate,2019,1.0581914613298038,1.44813267226438,0.7961987044487726
+Deaths,France,Both,Age-standardized,Asthma,Rate,1990,2.80291048596813,3.0521272516689004,2.5072764966166816
+Deaths,Uzbekistan,Both,Age-standardized,Asthma,Rate,2019,7.2249326826911755,11.591217008023682,5.727636117398922
+Deaths,Colombia,Both,Age-standardized,Asthma,Rate,1990,4.206561518043088,4.571076086933414,3.592346303882995
+Deaths,Montenegro,Both,Age-standardized,Asthma,Rate,1990,0.5313450867057179,0.7468755353654833,0.41653208583693535
+Deaths,Brunei Darussalam,Both,Age-standardized,Asthma,Rate,1990,30.448920313107195,37.399104657527964,21.012560624625266
+Deaths,Peru,Both,Age-standardized,Asthma,Rate,2019,0.7019576351814413,0.9659835282928726,0.48699366815850414
+Deaths,Egypt,Both,Age-standardized,Asthma,Rate,2019,13.659835834671245,18.750409722711268,9.42582755942495
+Deaths,Cuba,Both,Age-standardized,Asthma,Rate,2019,1.51998125161881,1.9314531073776862,1.1585049088050294
+Deaths,Syrian Arab Republic,Both,Age-standardized,Asthma,Rate,2019,12.381115487622646,15.945057169715072,9.292483873945548
+Deaths,Cameroon,Both,Age-standardized,Asthma,Rate,2019,13.065293447433053,17.196681296470178,9.918556125583967
+Deaths,Turkey,Both,Age-standardized,Asthma,Rate,2019,3.3158634943017593,4.501402057923634,2.4550421168281735
+Deaths,Honduras,Both,Age-standardized,Asthma,Rate,1990,11.818636701111073,15.567368224483555,8.618582208909254
+Deaths,Tonga,Both,Age-standardized,Asthma,Rate,2019,11.900010814393635,15.173580044915226,8.932460052869486
+Deaths,Cabo Verde,Both,Age-standardized,Asthma,Rate,2019,6.342585074293007,8.884573771179953,4.485898402278158
+Deaths,San Marino,Both,Age-standardized,Asthma,Rate,1990,0.8575675227961073,1.072597733609015,0.6695936599148353
+Deaths,Bahrain,Both,Age-standardized,Asthma,Rate,2019,4.865232867855505,6.530773660040017,3.811870639502462
+Deaths,Bosnia and Herzegovina,Both,Age-standardized,Asthma,Rate,2019,0.9936481022331456,1.29441393464994,0.7458769216721292
+Deaths,Germany,Both,Age-standardized,Asthma,Rate,1990,5.075943131288817,5.798269340052487,4.341230615373538
+Deaths,Belgium,Both,Age-standardized,Asthma,Rate,2019,0.6501256537648473,0.7495446924157806,0.5378614762501466
+Deaths,Mauritius,Both,Age-standardized,Asthma,Rate,2019,9.54938016593994,12.719393122851447,7.376765072140047
+Deaths,Netherlands,Both,Age-standardized,Asthma,Rate,2019,0.34560003593367167,0.4092533990546006,0.26960473282867325
+Deaths,Kuwait,Both,Age-standardized,Asthma,Rate,1990,5.568450646626714,6.618284806805045,4.496311615786997
+Deaths,Ghana,Both,Age-standardized,Asthma,Rate,1990,24.022913858116915,29.946926271348417,15.91366867806173
+Deaths,Belize,Both,Age-standardized,Asthma,Rate,2019,2.7037574325143603,3.269665367980548,2.206956118667713
+Deaths,Samoa,Both,Age-standardized,Asthma,Rate,2019,19.864065768999666,25.497464235807787,15.350656683882908
+Deaths,Rwanda,Both,Age-standardized,Asthma,Rate,2019,12.57997340628663,21.480052788281093,8.504653080576606
+Deaths,Sweden,Both,Age-standardized,Asthma,Rate,2019,0.6543768123682524,0.7698355518560378,0.5069560163150847
+Deaths,Guinea,Both,Age-standardized,Asthma,Rate,1990,31.91827150480577,42.66804516112565,24.06907269957298
+Deaths,Barbados,Both,Age-standardized,Asthma,Rate,2019,2.8400879663420664,3.502770555852396,2.2286882717426266
+Deaths,Zambia,Both,Age-standardized,Asthma,Rate,1990,19.498792343285228,25.514325305869097,14.742970319624101
+Deaths,Marshall Islands,Both,Age-standardized,Asthma,Rate,2019,27.195261389993078,37.527133945309934,18.48322634453104
+Deaths,Sri Lanka,Both,Age-standardized,Asthma,Rate,1990,80.95123363083631,91.18624967135224,67.77341222133353
+Deaths,Colombia,Both,Age-standardized,Asthma,Rate,2019,0.49861044529359433,0.6592535528356854,0.3626142500915168
+Deaths,Portugal,Both,Age-standardized,Asthma,Rate,2019,0.5390900203810911,0.6601927733622596,0.4304728071671443
+Deaths,Argentina,Both,Age-standardized,Asthma,Rate,1990,2.4240598189062275,2.8222940611516383,2.060606038297637
+Deaths,Albania,Both,Age-standardized,Asthma,Rate,2019,3.412351597890826,4.721006066953222,2.3611985810283986
+Deaths,Equatorial Guinea,Both,Age-standardized,Asthma,Rate,2019,10.511638503399324,20.364046144882952,6.06867718094181
+Deaths,Monaco,Both,Age-standardized,Asthma,Rate,2019,0.5474980787119392,0.6796273756615019,0.42064038217976674
+Deaths,Palau,Both,Age-standardized,Asthma,Rate,2019,12.809092255676186,15.921750532988264,10.001668089471561
+Deaths,Guatemala,Both,Age-standardized,Asthma,Rate,1990,14.347139512412772,17.52831814640617,11.182887093777724
+Deaths,Bulgaria,Both,Age-standardized,Asthma,Rate,2019,0.36907072552602205,0.4793022035486393,0.2739582769168608
+Deaths,Hungary,Both,Age-standardized,Asthma,Rate,1990,2.3209038836121714,2.6345518790956097,2.1435808557341915
+Deaths,Lithuania,Both,Age-standardized,Asthma,Rate,2019,0.6251431605709692,0.8817555334453345,0.4839198716784011
+Deaths,Latvia,Both,Age-standardized,Asthma,Rate,2019,0.8557449598759248,1.298776392627259,0.6492912900227227
+Deaths,Malaysia,Both,Age-standardized,Asthma,Rate,2019,3.8275363010122607,5.785400926551813,2.772332389419607
+Deaths,United Republic of Tanzania,Both,Age-standardized,Asthma,Rate,2019,8.613458954162803,12.296461525312472,6.109027814454613
+Deaths,Somalia,Both,Age-standardized,Asthma,Rate,1990,34.10155376714633,52.92933764010909,18.938339330171985
+Deaths,Côte d'Ivoire,Both,Age-standardized,Asthma,Rate,2019,13.728929538356132,17.63148071704783,10.775894282491318
+Deaths,Spain,Both,Age-standardized,Asthma,Rate,2019,0.922224126709326,1.1492413108112423,0.6898534527439646
+Deaths,Cyprus,Both,Age-standardized,Asthma,Rate,2019,1.9321697523444628,3.0495072406030332,1.310339263152694
+Deaths,Tunisia,Both,Age-standardized,Asthma,Rate,2019,6.1072848620658595,8.18140809003645,4.324291694648078
+Deaths,Indonesia,Both,Age-standardized,Asthma,Rate,2019,14.869226164088527,18.545094276750945,11.985126594092181
+Deaths,Andorra,Both,Age-standardized,Asthma,Rate,2019,0.6972996806053358,1.0164701058990515,0.4575177548959692
+Deaths,Maldives,Both,Age-standardized,Asthma,Rate,2019,4.2034869177830805,5.237428132263215,3.3128165544163934
+Deaths,Croatia,Both,Age-standardized,Asthma,Rate,2019,0.5887007377683714,0.7460919472290541,0.45216147381723865
+Deaths,Niue,Both,Age-standardized,Asthma,Rate,2019,11.036190548367603,15.55185728996967,6.243430214378023
+Deaths,Mozambique,Both,Age-standardized,Asthma,Rate,2019,11.920809382805666,16.186613972904176,8.357734108520404
+Deaths,United Arab Emirates,Both,Age-standardized,Asthma,Rate,2019,12.238513614515824,21.40732244379706,7.580544905930442
+Deaths,Vanuatu,Both,Age-standardized,Asthma,Rate,2019,31.554502550910446,47.19038317579626,21.842684298707493
+Deaths,Austria,Both,Age-standardized,Asthma,Rate,2019,0.4141217405281346,0.4779678633965405,0.3448093927115194
+Deaths,Sudan,Both,Age-standardized,Asthma,Rate,1990,34.6765525289941,60.74299701048692,19.695811825828308
+Deaths,Puerto Rico,Both,Age-standardized,Asthma,Rate,2019,1.4365067358202384,1.8690996834323936,1.086140527487405
+Deaths,Philippines,Both,Age-standardized,Asthma,Rate,1990,32.011784845074295,36.716958372709364,27.710353195687492
+Deaths,Guinea-Bissau,Both,Age-standardized,Asthma,Rate,1990,43.22623325137231,53.55853053742774,32.99393428037565
+Deaths,Republic of Moldova,Both,Age-standardized,Asthma,Rate,2019,0.5314533589821598,0.7251906755017099,0.4309908353012371
+Deaths,Russian Federation,Both,Age-standardized,Asthma,Rate,2019,0.7838976300358313,1.0696652688677817,0.6584324216872
+Deaths,Northern Mariana Islands,Both,Age-standardized,Asthma,Rate,2019,6.650256509047939,8.472245878654105,5.238889718009758
+Deaths,Yemen,Both,Age-standardized,Asthma,Rate,2019,18.04012471720384,26.320342760374587,13.121326385226215
+Deaths,Somalia,Both,Age-standardized,Asthma,Rate,2019,24.557147189865674,45.57333631648252,13.934235675099163
